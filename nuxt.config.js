@@ -2,7 +2,7 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
   router: {
-    base: 'Tailwind-CSS-Cheatsheet'
+    base: '/Tailwind-CSS-Cheatsheet/'
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
