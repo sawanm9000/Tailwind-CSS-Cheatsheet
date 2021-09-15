@@ -1,4 +1,4 @@
-# tailwind-cheatsheet
+# Tailwind CSS Cheatsheet (WIP)
 
 ## Build Setup
 
