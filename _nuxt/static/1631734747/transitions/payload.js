@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/transitions", {data:[{}],fetch:{},mutations:void 0});

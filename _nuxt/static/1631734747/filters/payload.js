@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/filters", {data:[{}],fetch:{},mutations:void 0});
