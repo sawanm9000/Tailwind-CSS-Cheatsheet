@@ -3,7 +3,7 @@
     <header class="w-full max-w-screen-xl fixed top-0 -inset-x-0 mx-auto">
       <div class="flex justify-center sm:justify-between p-4">
         <div class="flex gap-x-2">
-          <img src="icon.png" alt="Logo" style="height: 32px; width: 32px;">
+          <img src="/icon.png" alt="Logo" style="height: 32px; width: 32px;">
           <h1 class="text-2xl text-center font-bold">Tailwind CSS Cheat Sheet (WIP)</h1>
         </div>
         <div class="hidden sm:flex gap-4">
