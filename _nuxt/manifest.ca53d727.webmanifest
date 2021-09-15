@@ -4,49 +4,49 @@
   "description": "A Tailwind CSS cheat sheet",
   "icons": [
     {
-      "src": "Tailwind-CSS-Cheatsheet/_nuxt/icons/icon_64x64.8e3709.png",
+      "src": "/Tailwind-CSS-Cheatsheet/_nuxt/icons/icon_64x64.8e3709.png",
       "sizes": "64x64",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "Tailwind-CSS-Cheatsheet/_nuxt/icons/icon_120x120.8e3709.png",
+      "src": "/Tailwind-CSS-Cheatsheet/_nuxt/icons/icon_120x120.8e3709.png",
       "sizes": "120x120",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "Tailwind-CSS-Cheatsheet/_nuxt/icons/icon_144x144.8e3709.png",
+      "src": "/Tailwind-CSS-Cheatsheet/_nuxt/icons/icon_144x144.8e3709.png",
       "sizes": "144x144",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "Tailwind-CSS-Cheatsheet/_nuxt/icons/icon_152x152.8e3709.png",
+      "src": "/Tailwind-CSS-Cheatsheet/_nuxt/icons/icon_152x152.8e3709.png",
       "sizes": "152x152",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "Tailwind-CSS-Cheatsheet/_nuxt/icons/icon_192x192.8e3709.png",
+      "src": "/Tailwind-CSS-Cheatsheet/_nuxt/icons/icon_192x192.8e3709.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "Tailwind-CSS-Cheatsheet/_nuxt/icons/icon_384x384.8e3709.png",
+      "src": "/Tailwind-CSS-Cheatsheet/_nuxt/icons/icon_384x384.8e3709.png",
       "sizes": "384x384",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "Tailwind-CSS-Cheatsheet/_nuxt/icons/icon_512x512.8e3709.png",
+      "src": "/Tailwind-CSS-Cheatsheet/_nuxt/icons/icon_512x512.8e3709.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
     }
   ],
-  "start_url": "Tailwind-CSS-Cheatsheet/?standalone=true",
+  "start_url": "/Tailwind-CSS-Cheatsheet/?standalone=true",
   "display": "standalone",
   "background_color": "#111727",
   "lang": "en"
