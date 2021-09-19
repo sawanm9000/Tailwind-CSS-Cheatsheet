@@ -15,7 +15,7 @@
             <TwClass name="rounded-sm" tooltip="border-radius: 0.125rem" class="w-10">-sm</TwClass>
           </div>
           <div class="flex space-x-2 items-center">
-            <div class="border-t border-l border-r w-14 h-6 rounded"></div>
+            <div class="border-t border-l border-r w-14 h-6 rounded-t"></div>
             <TwClass name="rounded" tooltip="border-radius: 0.25rem" class="w-10"></TwClass>
           </div>
           <div class="flex space-x-2 items-center">
