@@ -15,7 +15,7 @@
     "@nuxtjs/pwa": "^3.3.5",
     "@tailwindcss/line-clamp": "^0.2.1",
     "@tailwindcss/typography": "^0.4.1",
-    "core-js": "^3.15.1",
+    "core-js": "^3.18.2",
     "nuxt": "^2.15.7"
   },
   "devDependencies": {
