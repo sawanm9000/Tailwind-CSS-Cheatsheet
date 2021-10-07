@@ -45,7 +45,7 @@
         </div>
         <div>
           <TwClass name="sticky" tooltip="position: sticky" class="mb-1 w-max">sticky</TwClass>
-          <div class="text-box-small h-20 bg-black overflow-auto flex flex-col gap-1">
+          <div class="text-box-small scroll-box h-20 bg-black overflow-auto flex flex-col gap-1">
             <div>
               <div class="w-full bg-yellow-600 sticky top-0 text-xs pl-1 font-sans">One</div>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus labore molestiae porro ea nisi ipsum perferendis tempore saepe quos iure odit facere, harum voluptates assumenda repellat illum natus hic incidunt!</p>

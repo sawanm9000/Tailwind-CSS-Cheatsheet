@@ -170,21 +170,24 @@ body > * {
 .text-box-small {
   font-size: 0.5rem;
   line-height: 1;
-  scrollbar-width: thin;
 
   @apply p-1 text-gray-200 font-sans;
 }
 
-.text-box-small::-webkit-scrollbar {
+.scroll-box {
+  scrollbar-width: thin;
+}
+
+.scroll-box::-webkit-scrollbar {
   width: 10px;
   height: 10px;
 }
 
-.text-box-small::-webkit-scrollbar-track {
+.scroll-box::-webkit-scrollbar-track {
   @apply bg-white;
 }
 
-.text-box-small::-webkit-scrollbar-thumb {
+.scroll-box::-webkit-scrollbar-thumb {
   @apply bg-gray-500;
 }
 </style>

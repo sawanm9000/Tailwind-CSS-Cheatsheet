@@ -5,7 +5,7 @@
       <StyleBorder     class="col-start-1 col-span-6 row-span-13 3xl:col-start-2 3xl:col-span-1" />
       <StyleRing       class="col-start-1 col-span-6 row-span-5  3xl:col-start-1 3xl:col-span-1" />
       <StyleRingOffset class="col-start-1 col-span-6 row-span-4  3xl:col-start-2 3xl:col-span-1" />
-      <StyleBg         class="col-start-1 col-span-6 row-span-19 3xl:col-start-3 3xl:col-span-1" />
+      <StyleBg         class="col-start-1 col-span-6 row-span-20 3xl:col-start-3 3xl:col-span-1" />
       <StyleFrom       class="col-start-1 col-span-6 row-span-3  3xl:col-start-2 3xl:col-span-1" />
       <StyleBgClip     class="col-start-1 col-span-6 row-span-3  3xl:col-start-4 3xl:col-span-1" />
       <StyleBgOrigin   class="col-start-1 col-span-6 row-span-3  3xl:col-start-4 3xl:col-span-1" />
