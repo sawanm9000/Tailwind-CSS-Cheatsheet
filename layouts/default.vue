@@ -24,7 +24,26 @@ export default {
   },
 
   mounted() {
-    window.addEventListener('keydown', (e) => {
+    window.addEventListener('keydown', this.keydownEvent);
+
+    // Mouse
+    document.addEventListener('mousedown', this.mouseDownEvent);
+
+    document.addEventListener('mouseup', this.mouseUpEvent)
+
+    // Set tooltip position
+    document.addEventListener('mousemove', this.setTooltipPos, false);
+  },
+
+  beforeDestroy() {
+    document.removeEventListener('keydown', this.keydownEvent);
+    document.removeEventListener('mousedown', this.mouseDownEvent);
+    document.removeEventListener('mouseup', this.mouseUpEvent);
+    document.removeEventListener('mousemove', this.setTooltipPos);
+  },
+
+  methods: {
+    keydownEvent(e) {
       // Search hotkey
       if (e.ctrlKey && e.key === 'k') {
         e.preventDefault();
@@ -51,10 +70,9 @@ export default {
           this.goTo(this.routes[this.routes.indexOf(this.$route.name) + 1]);
         }
       }
-    });
+    },
 
-    // Mouse
-    document.addEventListener('mousedown', e => {
+    mouseDownEvent(e) {
       if (e.button === 2 && this.$route.fullPath !== '/') {
         this.mouseButtonDown = true;
         setTimeout(() => {
@@ -64,22 +82,17 @@ export default {
           }
         }, 400);
       }
-    });
+    },
 
-    document.addEventListener('mouseup', e => {
+    mouseUpEvent(e) {
       if (e.button === 2) {
         this.mouseButtonDown = false;
         setTimeout(() => {
           document.removeEventListener('contextmenu', this.prevDef, false);
         }, 100);
       }
-    })
+    },
 
-    // Set tooltip position
-    document.addEventListener('mousemove', this.setTooltipPos, false);
-  },
-
-  methods: {
     goTo(path) {
       if (path !== this.$route.name) {
 
