@@ -2,7 +2,7 @@
   <Card>
     <div class="prefix"><Lnk href="https://tailwindcss.com/docs/font-size">text-</Lnk></div>
     <div class="content">
-      <div class="flex gap-x-2 sm:w-60 mb-3">
+      <div class="flex gap-x-2 max-w-sm mb-3">
         <div class="flex-1">
           <TwClass name="text-left" tooltip="text-align: left" class="mb-1">left</TwClass>
           <div class="flex flex-wrap gap-y-0.5 ml-0.5 w-4 justify-start">
@@ -44,7 +44,20 @@
           </div>
         </div>
       </div>
-      <div class="text-red-600 cursor-pointer">{color}</div>
+      <div class="grid grid-cols-3 gap-2 mt-2 max-w-xs">
+        <div>
+          <div class="text-red-600 cursor-pointer">{color}</div>
+          <div class="mt-1 font-sans text-red-600">Abc</div>
+        </div>
+        <div>
+          <div>transparent</div>
+          <div class="mt-1 font-sans text-transparent">Abc</div>
+        </div>
+        <div>
+          <div>current</div>
+          <div class="mt-1 font-sans text-current text-green-400">Abc</div>
+        </div>
+      </div>
       <div class="flex gap-x-3 items-end 3xl:-mt-20 flex-wrap 3xl:flex-nowrap">
         <div>
           <div class="font-sans text-xs">Abc</div>
