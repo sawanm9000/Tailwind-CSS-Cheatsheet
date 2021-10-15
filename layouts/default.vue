@@ -24,26 +24,21 @@ export default {
   },
 
   mounted() {
-    window.addEventListener('keydown', this.keydownEvent);
-
-    // Mouse
-    document.addEventListener('mousedown', this.mouseDownEvent);
-
-    document.addEventListener('mouseup', this.mouseUpEvent)
-
-    // Set tooltip position
+    window.addEventListener('keydown', this.keyNavigation);
+    document.addEventListener('mousedown', this.rightMouseBack);
+    document.addEventListener('mouseup', this.cancelRightMouseBack)
     document.addEventListener('mousemove', this.setTooltipPos, false);
   },
 
   beforeDestroy() {
-    document.removeEventListener('keydown', this.keydownEvent);
-    document.removeEventListener('mousedown', this.mouseDownEvent);
-    document.removeEventListener('mouseup', this.mouseUpEvent);
+    document.removeEventListener('keydown', this.keyNavigation);
+    document.removeEventListener('mousedown', this.rightMouseBack);
+    document.removeEventListener('mouseup', this.cancelRightMouseBack);
     document.removeEventListener('mousemove', this.setTooltipPos);
   },
 
   methods: {
-    keydownEvent(e) {
+    keyNavigation(e) {
       // Search hotkey
       if (e.ctrlKey && e.key === 'k') {
         e.preventDefault();
@@ -72,7 +67,7 @@ export default {
       }
     },
 
-    mouseDownEvent(e) {
+    rightMouseBack(e) {
       if (e.button === 2 && this.$route.fullPath !== '/') {
         this.mouseButtonDown = true;
         setTimeout(() => {
@@ -84,7 +79,7 @@ export default {
       }
     },
 
-    mouseUpEvent(e) {
+    cancelRightMouseBack(e) {
       if (e.button === 2) {
         this.mouseButtonDown = false;
         setTimeout(() => {

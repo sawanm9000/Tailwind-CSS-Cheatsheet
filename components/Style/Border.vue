@@ -61,7 +61,7 @@
         </div>
         <div>
           <TwClass name="border-current" tooltip="border-color: currentColor">-current</TwClass>
-          <div class="w-9 h-9 bg-blue-700 rounded-sm border-4 border-current mt-1"></div>
+          <div class="w-9 h-9 bg-blue-700 rounded-sm mt-1 font-sans flex justify-center items-center text-green-400 border-4 border-current">Hi</div>
         </div>
       </div>
       <div class="grid grid-cols-4 gap-2 mb-3">

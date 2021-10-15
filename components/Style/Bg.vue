@@ -138,9 +138,19 @@
           <div class="rounded mt-1 h-12 bg-gradient-to-br from-yellow-400 via-red-500 to-pink-500"></div>
         </div>
       </div>
-      <div class="mt-2">
-        <div class="text-red-600 w-max">{color}</div>
-        <div class="bg-red-600 rounded mt-1 h-7"></div>
+      <div class="mt-2 grid grid-cols-3 gap-2">
+        <div>
+          <div class="text-red-600 w-max">{color}</div>
+          <div class="rounded mt-1 h-7 bg-red-600"></div>
+        </div>
+        <div>
+          <TwClass name="bg-transparent" tooltip="background-color: transparent" class="w-max">transparent</TwClass>
+          <div class="rounded mt-1 h-7 bg-transparent"></div>
+        </div>
+        <div>
+          <TwClass name="bg-current" tooltip="background-color: currentColor" class="w-max">current</TwClass>
+          <div class="rounded mt-1 h-7 bg-current text-green-400 font-sans flex justify-center items-center">Hi</div>
+        </div>
       </div>
     </div>
   </Card>
