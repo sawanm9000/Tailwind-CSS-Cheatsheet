@@ -1,6 +1,6 @@
 <template>
   <Card>
-    <div class="text-gray-400 font-sans text-sm px-1.5"><Lnk href="https://tailwindcss.com/docs/font-style">Style</Lnk></div>
+    <div><Lnk href="https://tailwindcss.com/docs/font-style" class="font-sans text-sm text-gray-400 m-2">Style</Lnk></div>
     <div class="content">
       <div class="flex gap-x-2 items-center mb-1">
         <TwClass name="italic" tooltip="font-style: italic" class="flex-1 w-max">italic</TwClass>

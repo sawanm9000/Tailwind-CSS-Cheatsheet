@@ -1,6 +1,6 @@
 <template>
   <Card>
-    <div class="text-gray-400 font-sans text-sm px-1.5"><Lnk href="https://tailwindcss.com/docs/font-variant-numeric">Font variant numeric</Lnk></div>
+    <div><Lnk href="https://tailwindcss.com/docs/font-variant-numeric" class="font-sans text-sm text-gray-400 m-2">Font variant numeric</Lnk></div>
     <div class="content grid grid-cols-2 gap-y-2">
       <TwClass class="w-max" name="normal-nums" tooltip="font-variant-numeric: normal">normal-nums</TwClass>
       <p class="font-sans text-sm normal-nums">1234567890</p>

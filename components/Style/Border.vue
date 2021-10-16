@@ -86,42 +86,6 @@
           <div class="w-9 h-9 mt-1 bg-blue-700 rounded-sm border-2 border-none"></div>
         </div>
       </div>
-      <div class="grid grid-cols-2 gap-x-2">
-        <div>
-          <TwClass name="border-collapse" tooltip="border-collapse: collapse">-collapse</TwClass>
-          <table class="border-collapse border border-green-800 h-16 mt-1 bg-gray-700 rounded-sm font-sans">
-            <thead>
-              <tr>
-                <th class="border border-green-600 px-2">State</th>
-                <th class="border border-green-600 px-2">City</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="border border-green-600 px-2">Indiana</td>
-                <td class="border border-green-600 px-2">Ohio</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div>
-          <TwClass name="border-separate" tooltip="border-collapse: separate">-separate</TwClass>
-          <table class="border-separate border border-green-800 h-16 mt-1 bg-gray-700 rounded-sm font-sans">
-            <thead>
-              <tr>
-                <th class="border border-green-600 px-2">State</th>
-                <th class="border border-green-600 px-2">City</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="border border-green-600 px-2">Indiana</td>
-                <td class="border border-green-600 px-2">Ohio</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
     </div>
   </Card>
 </template>
