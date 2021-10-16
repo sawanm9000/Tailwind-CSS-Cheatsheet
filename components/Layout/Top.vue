@@ -6,7 +6,7 @@
     <div class="content">
       <div class="font-sans text-sm text-coolGray-400 mb-2">For absolutely and relatively positioned items</div>
       <div class="mb-2">
-        <a href="#length" class="text-blue-300 cursor-pointer select-none w-max mb-2" @mouseover="$nuxt.$emit('highlightLength', true)" @mouseleave="$nuxt.$emit('highlightLength', false)" @click="$nuxt.$emit('blinkLength')">{length}</a>
+        <div class="text-blue-300 cursor-pointer select-none w-max mb-2" @mouseover="$nuxt.$emit('highlightLength', true)" @mouseleave="$nuxt.$emit('highlightLength', false)" @click="$nuxt.$emit('blinkLength')">{length}</div>
       </div>
       <div class="font-sans text-sm mb-2 text-coolGray-400">Examples:</div>
       <div class="grid grid-cols-4 gap-x-2 gap-y-0.5">

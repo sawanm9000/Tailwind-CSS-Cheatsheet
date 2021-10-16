@@ -6,7 +6,7 @@
     <div class="content">
       <div class="grid grid-cols-3 gap-2">
         <div>
-          <div class="text-red-600">{color}</div>
+          <div class="text-red-600 cursor-pointer" @mouseover="$nuxt.$emit('highlightColor', true)" @mouseleave="$nuxt.$emit('highlightColor', false)">{color}</div>
           <div class="h-14 mt-1 rounded bg-gradient-to-r from-blue-700 to-red-600"></div>
         </div>
         <div>

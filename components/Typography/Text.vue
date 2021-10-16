@@ -46,7 +46,7 @@
       </div>
       <div class="grid grid-cols-3 gap-2 mt-2 max-w-xs">
         <div>
-          <div class="text-red-600 cursor-pointer">{color}</div>
+          <a href="/style" class="text-red-600 cursor-pointer">{color}</a>
           <div class="mt-1 font-sans text-red-600">Abc</div>
         </div>
         <div>

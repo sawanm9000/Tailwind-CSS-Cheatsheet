@@ -3,7 +3,7 @@
 		<div class="prefix whitespace-pre"><Lnk href="https://tailwindcss.com/docs/width">w-</Lnk>  <Lnk href="https://tailwindcss.com/docs/height">h-</Lnk></div>
 		<div class="content">
       <div class="mb-1.5">
-        <a href="#length" class="text-blue-300 cursor-pointer select-none w-max" @mouseover="$nuxt.$emit('highlightLength', true)" @mouseleave="$nuxt.$emit('highlightLength', false)" @click="$nuxt.$emit('blinkLength')">{length}</a>
+        <div class="text-blue-300 cursor-pointer select-none w-max" @mouseover="$nuxt.$emit('highlightLength', true)" @mouseleave="$nuxt.$emit('highlightLength', false)" @click="$nuxt.$emit('blinkLength')">{length}</div>
       </div>
 			<div class="widths mb-2 overflow-x-auto">
         <div class="w-120 sm:w-auto">

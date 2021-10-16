@@ -6,7 +6,7 @@
       <input class="font-sans text-sm pl-2 bg-coolGray-700 border rounded placeholder-transparent" placeholder="Abcdefgh" />
       <TwClass class="w-max" name="placeholder-current" tooltip="color: currentColor">current</TwClass>
       <input class="font-sans text-sm pl-2 bg-coolGray-700 border rounded placeholder-current" placeholder="Abcdefgh" />
-      <div class="text-red-600">{color}</div>
+      <a href="/style" class="text-red-600">{color}</a>
       <input class="font-sans text-sm pl-2 bg-coolGray-700 border rounded placeholder-red-600" placeholder="Abcdefgh" />
     </div>
   </Card>

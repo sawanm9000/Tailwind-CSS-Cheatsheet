@@ -140,7 +140,7 @@
       </div>
       <div class="mt-2 grid grid-cols-3 gap-2">
         <div>
-          <div class="text-red-600 w-max">{color}</div>
+          <div class="text-red-600 w-max cursor-pointer" @mouseover="$nuxt.$emit('highlightColor', true)" @mouseleave="$nuxt.$emit('highlightColor', false)">{color}</div>
           <div class="rounded mt-1 h-7 bg-red-600"></div>
         </div>
         <div>

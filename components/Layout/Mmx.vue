@@ -5,7 +5,7 @@
     </div>
     <div class="content">
       <div class="grid grid-cols-2 gap-2">
-        <a href="#length" class="text-blue-300 cursor-pointer select-none w-max" @mouseover="$nuxt.$emit('highlightLength', true)" @mouseleave="$nuxt.$emit('highlightLength', false)" @click="$nuxt.$emit('blinkLength')">{length}</a>
+        <div class="text-blue-300 cursor-pointer select-none w-max" @mouseover="$nuxt.$emit('highlightLength', true)" @mouseleave="$nuxt.$emit('highlightLength', false)" @click="$nuxt.$emit('blinkLength')">{length}</div>
         <TwClass name="mx-auto" tooltip="margin-left/right: auto" class="w-max">auto</TwClass>
       </div>
     </div>

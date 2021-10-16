@@ -5,8 +5,8 @@
     </div>
     <div class="content">
       <div class="grid grid-cols-2 gap-x-2 gap-y-1.5 mb-2">
-        <div>x-<a href="#length" class="text-blue-300 cursor-pointer select-none w-max" @mouseover="$nuxt.$emit('highlightLength', true)" @mouseleave="$nuxt.$emit('highlightLength', false)" @click="$nuxt.$emit('blinkLength')">{length}</a></div>
-        <div>y-<a href="#length" class="text-blue-300 cursor-pointer select-none w-max" @mouseover="$nuxt.$emit('highlightLength', true)" @mouseleave="$nuxt.$emit('highlightLength', false)" @click="$nuxt.$emit('blinkLength')">{length}</a></div>
+        <div>x-<span class="text-blue-300 cursor-pointer select-none w-max" @mouseover="$nuxt.$emit('highlightLength', true)" @mouseleave="$nuxt.$emit('highlightLength', false)" @click="$nuxt.$emit('blinkLength')">{length}</span></div>
+        <div>y-<span class="text-blue-300 cursor-pointer select-none w-max" @mouseover="$nuxt.$emit('highlightLength', true)" @mouseleave="$nuxt.$emit('highlightLength', false)" @click="$nuxt.$emit('blinkLength')">{length}</span></div>
 
         <div class="grid grid-cols-3 auto-rows-min gap-x-2 w-max">
           <div class="border-r border-blue-500 text-blue-500 flex justify-end h-3 w-8">

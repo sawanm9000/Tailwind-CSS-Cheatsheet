@@ -112,7 +112,7 @@
       </div>
       <div class="grid grid-cols-3 gap-2 mt-2">
         <div>
-          <div class="text-red-600 w-max">{color}</div>
+          <div class="text-red-600 w-max cursor-pointer" @mouseover="$nuxt.$emit('highlightColor', true)" @mouseleave="$nuxt.$emit('highlightColor', false)">{color}</div>
           <div class="mt-1 h-8 bg-coolGray-700 rounded grid grid-cols-3 divide-x divide-red-600 font-sans">
             <div class="text-center flex justify-center items-center">1</div>
             <div class="text-center flex justify-center items-center">2</div>

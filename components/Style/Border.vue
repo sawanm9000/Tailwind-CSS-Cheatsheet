@@ -52,7 +52,7 @@
       </div>
       <div class="grid grid-cols-3 mb-4 gap-x-2">
         <div>
-          <div class="text-red-600">-{color}</div>
+          <div class="text-red-600 cursor-pointer" @mouseover="$nuxt.$emit('highlightColor', true)" @mouseleave="$nuxt.$emit('highlightColor', false)">-{color}</div>
           <div class="w-9 h-9 bg-blue-700 rounded-sm border-4 mt-1 border-red-600"></div>
         </div>
         <div>

@@ -28,7 +28,7 @@
       </div>
       <div class="grid grid-cols-3">
         <div>
-          <div class="text-red-600">{color}</div>
+          <div class="text-red-600 cursor-pointer" @mouseover="$nuxt.$emit('highlightColor', true)" @mouseleave="$nuxt.$emit('highlightColor', false)">{color}</div>
           <div class="bg-blue-700 w-9 h-9 mt-2 rounded ring ring-offset-2 ring-offset-red-600"></div>
         </div>
         <div>
