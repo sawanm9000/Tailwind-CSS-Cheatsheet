@@ -50,11 +50,11 @@
           <div class="mt-1 font-sans text-red-600">Abc</div>
         </div>
         <div>
-          <div>transparent</div>
+          <TwClass name="text-transparent" tooltip="color: transparent">transparent</TwClass>
           <div class="mt-1 font-sans text-transparent">Abc</div>
         </div>
         <div>
-          <div>current</div>
+          <TwClass name="text-current" tooltip="color: currentColor">current</TwClass>
           <div class="mt-1 font-sans text-current text-emerald-400">Abc</div>
         </div>
       </div>
