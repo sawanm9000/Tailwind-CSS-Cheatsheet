@@ -37,7 +37,7 @@
         </div>
         <div>
           <TwClass name="ring-offset-current" tooltip="--tw-ring-offset-color: currentColor" class="w-max">current</TwClass>
-          <div class="bg-blue-700 w-9 h-9 mt-2 rounded ring ring-offset-2 ring-offset-current"></div>
+          <div class="bg-blue-700 w-9 h-9 mt-2 rounded font-sans flex justify-center items-center text-green-400 ring ring-offset-2 ring-offset-current">Hi</div>
         </div>
       </div>
     </div>
