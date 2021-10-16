@@ -2,7 +2,7 @@
   <Card>
     <div class="content relative">
       <div class="absolute top-0 left-0 pl-2 pt-1"><Lnk href="https://tailwindcss.com/docs/customizing-colors" class="font-sans text-sm text-coolGray-400">Color</Lnk></div>
-      <div class="grid grid-rows-1 gap-x-0.5" style="grid-template-columns: 35px repeat(22, 1fr) 35px;">
+      <div class="grid grid-rows-1 gap-x-0.5" style="grid-template-columns: 35px repeat(5, 1fr) 3px repeat(17, 1fr) 35px;">
         <div class="grid" style="grid-template-rows: 60px repeat(10, 1fr)">
           <div class="h-5"></div>
           <div class="h-5 flex justify-end items-center pr-1">900</div>
@@ -18,7 +18,7 @@
         </div>
         <div class="grid" style="grid-template-rows: 60px repeat(10, 1fr)">
           <div class="relative h-5 self-end">
-            <div class="h-5 absolute transform -rotate-45 origin-left translate-x-3 left-0 top-1">blueGray*</div>
+            <div class="h-5 absolute transform -rotate-45 origin-left left-2.5 top-1">blueGray*</div>
           </div>
           <div class="h-5 rounded-t bg-blueGray-900"></div>
           <div class="h-5 bg-blueGray-800"></div>
@@ -33,7 +33,7 @@
         </div>
         <div class="grid" style="grid-template-rows: 60px repeat(10, 1fr)">
           <div class="relative h-5 self-end">
-            <div class="h-5 absolute transform -rotate-45 origin-left translate-x-3 left-0 top-1">coolGray*</div>
+            <div class="h-5 absolute transform -rotate-45 origin-left left-2.5 top-1">coolGray*</div>
           </div>
           <div class="h-5 rounded-t bg-coolGray-900"></div>
           <div class="h-5 bg-coolGray-800"></div>
@@ -48,7 +48,7 @@
         </div>
         <div class="grid" style="grid-template-rows: 60px repeat(10, 1fr)">
           <div class="relative h-5 self-end">
-            <div class="h-5 absolute transform -rotate-45 origin-left translate-x-3 left-0 top-1">gray</div>
+            <div class="h-5 absolute transform -rotate-45 origin-left left-2.5 top-1">gray</div>
           </div>
           <div class="h-5 rounded-t bg-gray-900"></div>
           <div class="h-5 bg-gray-800"></div>
@@ -63,7 +63,7 @@
         </div>
         <div class="grid" style="grid-template-rows: 60px repeat(10, 1fr)">
           <div class="relative h-5 self-end">
-            <div class="h-5 absolute transform -rotate-45 origin-left translate-x-3 left-0 top-1">trueGray*</div>
+            <div class="h-5 absolute transform -rotate-45 origin-left left-2.5 top-1">trueGray*</div>
           </div>
           <div class="h-5 rounded-t bg-trueGray-900"></div>
           <div class="h-5 bg-trueGray-800"></div>
@@ -78,7 +78,7 @@
         </div>
         <div class="grid" style="grid-template-rows: 60px repeat(10, 1fr)">
           <div class="relative h-5 self-end">
-            <div class="h-5 absolute transform -rotate-45 origin-left translate-x-3 left-0 top-1">warmGray*</div>
+            <div class="h-5 absolute transform -rotate-45 origin-left left-2.5 top-1">warmGray*</div>
           </div>
           <div class="h-5 rounded-t bg-warmGray-900"></div>
           <div class="h-5 bg-warmGray-800"></div>
@@ -91,9 +91,10 @@
           <div class="h-5 bg-warmGray-100"></div>
           <div class="h-5 rounded-b bg-warmGray-50"></div>
         </div>
+        <div></div>
         <div class="grid" style="grid-template-rows: 60px repeat(10, 1fr)">
           <div class="relative h-5 self-end">
-            <div class="h-5 absolute transform -rotate-45 origin-left translate-x-3 left-0 top-1">red</div>
+            <div class="h-5 absolute transform -rotate-45 origin-left left-2.5 top-1">red</div>
           </div>
           <div class="h-5 rounded-t bg-red-900"></div>
           <div class="h-5 bg-red-800"></div>
@@ -108,7 +109,7 @@
         </div>
         <div class="grid" style="grid-template-rows: 60px repeat(10, 1fr)">
           <div class="relative h-5 self-end">
-            <div class="h-5 absolute transform -rotate-45 origin-left translate-x-3 left-0 top-1">orange*</div>
+            <div class="h-5 absolute transform -rotate-45 origin-left left-2.5 top-1">orange*</div>
           </div>
           <div class="h-5 rounded-t bg-orange-900"></div>
           <div class="h-5 bg-orange-800"></div>
@@ -123,7 +124,7 @@
         </div>
         <div class="grid" style="grid-template-rows: 60px repeat(10, 1fr)">
           <div class="relative h-5 self-end">
-            <div class="h-5 absolute transform -rotate-45 origin-left translate-x-3 left-0 top-1">amber*</div>
+            <div class="h-5 absolute transform -rotate-45 origin-left left-2.5 top-1">amber*</div>
           </div>
           <div class="h-5 rounded-t bg-amber-900"></div>
           <div class="h-5 bg-amber-800"></div>
@@ -138,7 +139,7 @@
         </div>
         <div class="grid" style="grid-template-rows: 60px repeat(10, 1fr)">
           <div class="relative h-5 self-end">
-            <div class="h-5 absolute transform -rotate-45 origin-left translate-x-3 left-0 top-1">yellow</div>
+            <div class="h-5 absolute transform -rotate-45 origin-left left-2.5 top-1">yellow</div>
           </div>
           <div class="h-5 rounded-t bg-yellow-900"></div>
           <div class="h-5 bg-yellow-800"></div>
@@ -153,7 +154,7 @@
         </div>
         <div class="grid" style="grid-template-rows: 60px repeat(10, 1fr)">
           <div class="relative h-5 self-end">
-            <div class="h-5 absolute transform -rotate-45 origin-left translate-x-3 left-0 top-1">lime*</div>
+            <div class="h-5 absolute transform -rotate-45 origin-left left-2.5 top-1">lime*</div>
           </div>
           <div class="h-5 rounded-t bg-lime-900"></div>
           <div class="h-5 bg-lime-800"></div>
@@ -168,7 +169,7 @@
         </div>
         <div class="grid" style="grid-template-rows: 60px repeat(10, 1fr)">
           <div class="relative h-5 self-end">
-            <div class="h-5 absolute transform -rotate-45 origin-left translate-x-3 left-0 top-1">green</div>
+            <div class="h-5 absolute transform -rotate-45 origin-left left-2.5 top-1">green</div>
           </div>
           <div class="h-5 rounded-t bg-green-900"></div>
           <div class="h-5 bg-green-800"></div>
@@ -183,7 +184,7 @@
         </div>
         <div class="grid" style="grid-template-rows: 60px repeat(10, 1fr)">
           <div class="relative h-5 self-end">
-            <div class="h-5 absolute transform -rotate-45 origin-left translate-x-3 left-0 top-1">emerald*</div>
+            <div class="h-5 absolute transform -rotate-45 origin-left left-2.5 top-1">emerald*</div>
           </div>
           <div class="h-5 rounded-t bg-emerald-900"></div>
           <div class="h-5 bg-emerald-800"></div>
@@ -198,7 +199,7 @@
         </div>
         <div class="grid" style="grid-template-rows: 60px repeat(10, 1fr)">
           <div class="relative h-5 self-end">
-            <div class="h-5 absolute transform -rotate-45 origin-left translate-x-3 left-0 top-1">teal*</div>
+            <div class="h-5 absolute transform -rotate-45 origin-left left-2.5 top-1">teal*</div>
           </div>
           <div class="h-5 rounded-t bg-teal-900"></div>
           <div class="h-5 bg-teal-800"></div>
@@ -213,7 +214,7 @@
         </div>
         <div class="grid" style="grid-template-rows: 60px repeat(10, 1fr)">
           <div class="relative h-5 self-end">
-            <div class="h-5 absolute transform -rotate-45 origin-left translate-x-3 left-0 top-1">cyan*</div>
+            <div class="h-5 absolute transform -rotate-45 origin-left left-2.5 top-1">cyan*</div>
           </div>
           <div class="h-5 rounded-t bg-cyan-900"></div>
           <div class="h-5 bg-cyan-800"></div>
@@ -228,7 +229,7 @@
         </div>
         <div class="grid" style="grid-template-rows: 60px repeat(10, 1fr)">
           <div class="relative h-5 self-end">
-            <div class="h-5 absolute transform -rotate-45 origin-left translate-x-3 left-0 top-1">lightBlue*</div>
+            <div class="h-5 absolute transform -rotate-45 origin-left left-2.5 top-1">lightBlue*</div>
           </div>
           <div class="h-5 rounded-t bg-lightBlue-900"></div>
           <div class="h-5 bg-lightBlue-800"></div>
@@ -243,7 +244,7 @@
         </div>
         <div class="grid" style="grid-template-rows: 60px repeat(10, 1fr)">
           <div class="relative h-5 self-end">
-            <div class="h-5 absolute transform -rotate-45 origin-left translate-x-3 left-0 top-1">blue</div>
+            <div class="h-5 absolute transform -rotate-45 origin-left left-2.5 top-1">blue</div>
           </div>
           <div class="h-5 rounded-t bg-blue-900"></div>
           <div class="h-5 bg-blue-800"></div>
@@ -258,7 +259,7 @@
         </div>
         <div class="grid" style="grid-template-rows: 60px repeat(10, 1fr)">
           <div class="relative h-5 self-end">
-            <div class="h-5 absolute transform -rotate-45 origin-left translate-x-3 left-0 top-1">indigo</div>
+            <div class="h-5 absolute transform -rotate-45 origin-left left-2.5 top-1">indigo</div>
           </div>
           <div class="h-5 rounded-t bg-indigo-900"></div>
           <div class="h-5 bg-indigo-800"></div>
@@ -273,7 +274,7 @@
         </div>
         <div class="grid" style="grid-template-rows: 60px repeat(10, 1fr)">
           <div class="relative h-5 self-end">
-            <div class="h-5 absolute transform -rotate-45 origin-left translate-x-3 left-0 top-1">violet*</div>
+            <div class="h-5 absolute transform -rotate-45 origin-left left-2.5 top-1">violet*</div>
           </div>
           <div class="h-5 rounded-t bg-violet-900"></div>
           <div class="h-5 bg-violet-800"></div>
@@ -288,7 +289,7 @@
         </div>
         <div class="grid" style="grid-template-rows: 60px repeat(10, 1fr)">
           <div class="relative h-5 self-end">
-            <div class="h-5 absolute transform -rotate-45 origin-left translate-x-3 left-0 top-1">purple</div>
+            <div class="h-5 absolute transform -rotate-45 origin-left left-2.5 top-1">purple</div>
           </div>
           <div class="h-5 rounded-t bg-purple-900"></div>
           <div class="h-5 bg-purple-800"></div>
@@ -303,7 +304,7 @@
         </div>
         <div class="grid" style="grid-template-rows: 60px repeat(10, 1fr)">
           <div class="relative h-5 self-end">
-            <div class="h-5 absolute transform -rotate-45 origin-left translate-x-3 left-0 top-1">fuchsia*</div>
+            <div class="h-5 absolute transform -rotate-45 origin-left left-2.5 top-1">fuchsia*</div>
           </div>
           <div class="h-5 rounded-t bg-fuchsia-900"></div>
           <div class="h-5 bg-fuchsia-800"></div>
@@ -318,7 +319,7 @@
         </div>
         <div class="grid" style="grid-template-rows: 60px repeat(10, 1fr)">
           <div class="relative h-5 self-end">
-            <div class="h-5 absolute transform -rotate-45 origin-left translate-x-3 left-0 top-1">pink</div>
+            <div class="h-5 absolute transform -rotate-45 origin-left left-2.5 top-1">pink</div>
           </div>
           <div class="h-5 rounded-t bg-pink-900"></div>
           <div class="h-5 bg-pink-800"></div>
@@ -333,7 +334,7 @@
         </div>
         <div class="grid" style="grid-template-rows: 60px repeat(10, 1fr)">
           <div class="relative h-5 self-end">
-            <div class="h-5 absolute transform -rotate-45 origin-left translate-x-3 left-0 top-1">rose*</div>
+            <div class="h-5 absolute transform -rotate-45 origin-left left-2.5 top-1">rose*</div>
           </div>
           <div class="h-5 rounded-t bg-rose-900"></div>
           <div class="h-5 bg-rose-800"></div>
