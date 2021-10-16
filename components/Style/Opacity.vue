@@ -1,10 +1,10 @@
 <template>
   <Card>
-    <div class="prefix">
+    <div class="prefix max-w-full">
       <div class="whitespace-pre-wrap"><Lnk href="https://tailwindcss.com/docs/opacity">opacity-</Lnk>  <Lnk href="https://tailwindcss.com/docs/background-opacity">bg-opacity-</Lnk>  <Lnk href="https://tailwindcss.com/docs/border-opacity">border-opacity-</Lnk>  <Lnk href="https://tailwindcss.com/docs/divide-opacity">divide-opacity-</Lnk>  <Lnk href="https://tailwindcss.com/docs/ring-opacity">ring-opacity-</Lnk></div>
     </div>
-    <div class="content">
-      <div class="flex gap-2">
+    <div class="content overflow-auto">
+      <div class="flex gap-2 pr-2 sm:pr-0" style="min-width: 600px">
         <div class="flex flex-col flex-1">
           <TwClass name="opacity-0" tooltip="opacity: 0" class="w-max">0</TwClass>
           <div class="h-10 mt-2 font-sans flex flex-col flex-1 justify-center bg-blue-600 rounded border divide-y ring-2 ring-offset-1 ring-offset-coolGray-800 opacity-0 bg-opacity-0 border-opacity-0 divide-opacity-0 ring-opacity-0">

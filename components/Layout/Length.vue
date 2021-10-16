@@ -1,7 +1,7 @@
 <template>
-	<Card>
+	<Card class="relative">
+    <div class="absolute right-0 top-0 pr-2"><Lnk href="https://tailwindcss.com/docs/width" class="font-sans text-sm text-coolGray-400 mb-2">Length</Lnk></div>
 		<div class="content overflow-x-auto relative">
-      <div class="absolute right-0 top-0 pt-1 pr-2"><Lnk href="https://tailwindcss.com/docs/width" class="font-sans text-sm text-coolGray-400 mb-2">Length</Lnk></div>
 			<div class="relative h-20 pl-10 pr-6 w-max">
 				<div class="top-sizes">
 					<div class="w-96 h-4 -mt-4">96</div>
