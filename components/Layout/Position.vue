@@ -2,14 +2,14 @@
   <Card>
     <div class="content">
       <div class="mb-2">
-        <Lnk href="https://tailwindcss.com/docs/position" class="font-sans text-sm text-gray-400">Position</Lnk>
+        <Lnk href="https://tailwindcss.com/docs/position" class="font-sans text-sm text-coolGray-400">Position</Lnk>
       </div>
       <div class="grid grid-cols-3 gap-2 mb-3">
         <div>
           <TwClass name="static" tooltip="position: static" class="mb-1 w-max">static</TwClass>
           <div class="h-20 bg-blue-700 flex gap-1 p-1">
             <div class="h-6 w-6 rounded bg-yellow-600"></div>
-            <div class="h-6 w-6 rounded bg-green-600"></div>
+            <div class="h-6 w-6 rounded bg-emerald-600"></div>
             <div class="h-6 w-6 rounded bg-red-600"></div>
           </div>
         </div>
@@ -18,7 +18,7 @@
           <div class="h-20 bg-blue-700 flex gap-1 p-1">
             <div class="h-6 w-6 rounded bg-yellow-600"></div>
             <div class="h-6 w-6 rounded border border-dashed relative">
-              <div class="h-6 w-6 rounded bg-green-600 relative top-3 left-3 border border-gray-300"></div>
+              <div class="h-6 w-6 rounded bg-emerald-600 relative top-3 left-3 border border-coolGray-300"></div>
             </div>
             <div class="h-6 w-6 rounded bg-red-600"></div>
           </div>
@@ -27,7 +27,7 @@
           <TwClass name="absolute" tooltip="position: absolute" class="mb-1 w-max">absolute</TwClass>
           <div class="h-20 bg-blue-700 flex gap-1 p-1 border border-dashed">
             <div class="h-6 w-6 rounded bg-yellow-600 relative">
-              <div class="h-6 w-6 rounded bg-green-600 absolute top-2 left-2 border border-gray-300"></div>
+              <div class="h-6 w-6 rounded bg-emerald-600 absolute top-2 left-2 border border-coolGray-300"></div>
             </div>
             <div class="h-6 w-6 rounded bg-red-600">
             </div>
@@ -39,7 +39,7 @@
           <TwClass name="fixed" tooltip="position: fixed" class="mb-1 w-max">fixed</TwClass>
           <Browser height="4.3rem">
             <div class="h-full bg-blue-700 relative p-1">
-              <div class="h-8 w-8 rounded bg-green-600 absolute top-2 left-2 border border-gray-300"></div>
+              <div class="h-8 w-8 rounded bg-emerald-600 absolute top-2 left-2 border border-coolGray-300"></div>
             </div>
           </Browser>
         </div>
@@ -51,7 +51,7 @@
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus labore molestiae porro ea nisi ipsum perferendis tempore saepe quos iure odit facere, harum voluptates assumenda repellat illum natus hic incidunt!</p>
             </div>
             <div>
-              <div class="w-full bg-green-600 sticky top-0 text-xs pl-1 font-sans">Two</div>
+              <div class="w-full bg-emerald-600 sticky top-0 text-xs pl-1 font-sans">Two</div>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus labore molestiae porro ea nisi ipsum perferendis tempore saepe quos iure odit facere, harum voluptates assumenda repellat illum natus hic incidunt!</p>
             </div>
             <div>

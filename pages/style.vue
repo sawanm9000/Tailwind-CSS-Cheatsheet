@@ -11,11 +11,11 @@
       <StyleBgOrigin   class="col-start-1 col-span-6 row-span-3  3xl:col-start-4 3xl:col-span-1" />
       <StyleDecoration class="col-start-1 col-span-6 row-span-3  3xl:col-start-4 3xl:col-span-1" />
       <StyleDivide     class="col-start-1 col-span-6 row-span-9  3xl:col-start-5 3xl:col-span-1" />
+      <StyleColor      class="col-start-1 col-span-6 row-span-6  3xl:col-start-4 3xl:col-span-2" />
+      <StyleOpacity    class="col-start-1 col-span-6 row-span-3  3xl:col-start-4 3xl:col-span-2" />
       <StyleStroke     class="col-start-1 col-span-6 row-span-2  3xl:col-start-4 3xl:col-span-1" />
       <StyleSvgFill    class="col-start-1 col-span-6 row-span-2  3xl:col-start-5 3xl:col-span-1" />
-      <StyleOpacity    class="col-start-1 col-span-6 row-span-3  3xl:col-start-4 3xl:col-span-2" />
-      <StyleColor      class="col-start-1 col-span-6 row-span-6  3xl:col-start-4 3xl:col-span-2" />
-      <StyleObject     class="col-start-1 col-span-6 row-span-9  3xl:col-start-6 3xl:col-span-1" />
+      <StyleObject     class="col-start-1 col-span-6 row-span-10  3xl:col-start-6 3xl:col-span-1" />
       <StyleShadow     class="col-start-1 col-span-6 row-span-4  3xl:col-start-6 3xl:col-span-1" />
       <StyleTable      class="col-start-1 col-span-6 row-span-6  3xl:col-start-6 3xl:col-span-1" />
     </div>

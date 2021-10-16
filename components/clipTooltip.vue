@@ -1,8 +1,8 @@
 <template>
-  <div ref="tooltip" class="fixed bg-gray-900 border-gray-500 border w-max px-2 py-1 rounded-md text-sm text-right font-mono z-50">
+  <div ref="tooltip" class="fixed bg-coolGray-900 border-coolGray-500 border w-max px-2 py-1 rounded-md text-sm text-right font-mono z-50">
     <div v-if="toShow === 'class'">{{tooltipText}}</div>
     <div v-else>
-      <span class="text-purple-500">{{tooltipTextCSS.prop}}</span> <span class="text-green-400">{{tooltipTextCSS.val}}</span>
+      <span class="text-purple-500">{{tooltipTextCSS.prop}}</span> <span class="text-emerald-400">{{tooltipTextCSS.val}}</span>
     </div>
   </div>
 </template>

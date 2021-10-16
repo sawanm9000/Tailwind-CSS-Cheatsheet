@@ -12,31 +12,31 @@
       <div class="grid grid-cols-3 gap-2 mb-3">
         <div>
           <TwClass name="prose-sm" class="mb-1 w-max">-sm</TwClass>
-          <article class="bg-gray-700 h-20 overflow-hidden font-sans px-0.5 prose-sm">
+          <article class="bg-coolGray-700 h-20 overflow-hidden font-sans px-0.5 prose-sm">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia voluptatibus dignissimos excepturi nihil, eius ex veniam ab quod, odit facilis officiis dolore praesentium quos earum, repudiandae temporibus nemo expedita quidem?</p>
           </article>
         </div>
         <div>
           <div class="mb-1 invisible">0</div>
-          <article class="bg-gray-700 h-20 overflow-hidden font-sans px-0.5 prose text-white">
+          <article class="bg-coolGray-700 h-20 overflow-hidden font-sans px-0.5 prose text-white">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia voluptatibus dignissimos excepturi nihil, eius ex veniam ab quod, odit facilis officiis dolore praesentium quos earum, repudiandae temporibus nemo expedita quidem?</p>
           </article>
         </div>
         <div>
           <TwClass name="prose-lg" class="mb-1 w-max">-lg</TwClass>
-          <article class="bg-gray-700 h-20 overflow-hidden font-sans px-0.5 prose-lg">
+          <article class="bg-coolGray-700 h-20 overflow-hidden font-sans px-0.5 prose-lg">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia voluptatibus dignissimos excepturi nihil, eius ex veniam ab quod, odit facilis officiis dolore praesentium quos earum, repudiandae temporibus nemo expedita quidem?</p>
           </article>
         </div>
         <div>
           <TwClass name="prose-xl" class="mb-1 w-max">-xl</TwClass>
-          <article class="bg-gray-700 h-20 overflow-hidden font-sans px-0.5 prose-xl">
+          <article class="bg-coolGray-700 h-20 overflow-hidden font-sans px-0.5 prose-xl">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia voluptatibus dignissimos excepturi nihil, eius ex veniam ab quod, odit facilis officiis dolore praesentium quos earum, repudiandae temporibus nemo expedita quidem?</p>
           </article>
         </div>
         <div>
           <TwClass name="prose-2xl" class="mb-1 w-max">-2xl</TwClass>
-          <article class="bg-gray-700 h-20 overflow-hidden font-sans px-0.5 prose-2xl">
+          <article class="bg-coolGray-700 h-20 overflow-hidden font-sans px-0.5 prose-2xl">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia voluptatibus dignissimos excepturi nihil, eius ex veniam ab quod, odit facilis officiis dolore praesentium quos earum, repudiandae temporibus nemo expedita quidem?</p>
           </article>
         </div>

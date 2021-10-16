@@ -40,14 +40,14 @@ export default {
 
 <style lang="scss" scoped>
 .nav-button {
-	@apply sm:w-40 h-40 px-3 py-1.5 bg-gray-800 rounded-lg border-2 border-gray-700 hover:bg-gray-700 hover:border-gray-600;
+	@apply sm:w-40 h-40 px-3 py-1.5 bg-coolGray-800 rounded-lg border-2 border-coolGray-700 hover:bg-coolGray-700 hover:border-coolGray-600;
 
   div:first-child {
     @apply text-lg font-semibold mb-1.5 whitespace-nowrap;
   }
 
   div:nth-child(2) {
-    @apply text-gray-300;
+    @apply text-coolGray-300;
   }
 }
 </style>

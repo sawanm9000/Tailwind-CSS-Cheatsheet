@@ -27,7 +27,7 @@
         </div>
       </div>
       <div class="mb-1">-{ t | r | b | l }-{ size }</div>
-      <div class="font-sans text-sm text-gray-400">Examples:</div>
+      <div class="font-sans text-sm text-coolGray-400">Examples:</div>
       <div class="grid grid-cols-3 gap-y-2 justify-items-center mb-4">
         <div class=" col-start-2 row-start-1">
           <div>-t-4</div>
@@ -61,7 +61,7 @@
         </div>
         <div>
           <TwClass name="border-current" tooltip="border-color: currentColor">-current</TwClass>
-          <div class="w-9 h-9 bg-blue-700 rounded-sm mt-1 font-sans flex justify-center items-center text-green-400 border-4 border-current">Hi</div>
+          <div class="w-9 h-9 bg-blue-700 rounded-sm mt-1 font-sans flex justify-center items-center text-emerald-400 border-4 border-current">Hi</div>
         </div>
       </div>
       <div class="grid grid-cols-4 gap-2 mb-3">

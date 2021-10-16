@@ -1,6 +1,6 @@
 <template>
   <Card>
-    <div><Lnk href="https://tailwindcss.com/docs/font-style" class="font-sans text-sm text-gray-400 m-2">Style</Lnk></div>
+    <div><Lnk href="https://tailwindcss.com/docs/font-style" class="font-sans text-sm text-coolGray-400 m-2">Style</Lnk></div>
     <div class="content">
       <div class="flex gap-x-2 items-center mb-1">
         <TwClass name="italic" tooltip="font-style: italic" class="flex-1 w-max">italic</TwClass>
@@ -52,7 +52,7 @@
       </div>
       <div class="flex gap-x-2 items-center mb-5">
         <TwClass name="max-w-prose" tooltip="max-width: 65ch" class="flex-1 w-max">max-w-prose</TwClass>
-        <div class="flex-1 text-sm max-w-prose text-green-500">65ch</div>
+        <div class="flex-1 text-sm max-w-prose text-emerald-500">65ch</div>
       </div>
       <div class="flex gap-x-2 items-center mb-1">
         <TwClass name="antialiased" tooltip="-webkit-font-smoothing: antialiased" class="flex-1 w-max">antialiased</TwClass>

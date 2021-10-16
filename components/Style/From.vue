@@ -15,7 +15,7 @@
         </div>
         <div>
           <TwClass name="to-current" tooltip="--tw-gradient-to: currentColor">current</TwClass>
-          <div class="h-14 mt-1 rounded flex justify-center items-center font-sans text-base font-bold bg-gradient-to-r from-blue-700 to-current text-green-400">Hi</div>
+          <div class="h-14 mt-1 rounded flex justify-center items-center font-sans text-base font-bold bg-gradient-to-r from-blue-700 to-current text-emerald-400">Hi</div>
         </div>
       </div>
     </div>

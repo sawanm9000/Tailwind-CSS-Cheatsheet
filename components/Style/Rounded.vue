@@ -45,7 +45,7 @@
         </div>
       </div>
       <div class="mb-1.5">-{ t | r | b | l }-{ size }</div>
-      <div class="font-sans text-sm text-gray-400 mb-1.5">Examples:</div>
+      <div class="font-sans text-sm text-coolGray-400 mb-1.5">Examples:</div>
       <div class="grid grid-cols-3 gap-y-3 justify-items-center">
         <div>
           <div>-tl-xl</div>

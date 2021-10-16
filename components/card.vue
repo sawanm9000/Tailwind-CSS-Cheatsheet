@@ -1,5 +1,5 @@
 <template>
-	<div class="card bg-gray-800 rounded-md">
+	<div class="card bg-coolGray-800 rounded-md">
 		<slot></slot>
 	</div>
 </template>
@@ -12,7 +12,7 @@
 <style lang="scss" scoped>
 .card {
 	.prefix {
-		@apply bg-gray-600 rounded-tl-md rounded-br-md w-max px-1.5 text-sm font-mono whitespace-pre relative;
+		@apply bg-coolGray-600 rounded-tl-md rounded-br-md w-max px-1.5 text-sm font-mono whitespace-pre relative;
 
     a {
       &::after {

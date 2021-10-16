@@ -6,41 +6,41 @@
         <div class="flex-1">
           <TwClass name="text-left" tooltip="text-align: left" class="mb-1">left</TwClass>
           <div class="flex flex-wrap gap-y-0.5 ml-0.5 w-4 justify-start">
-            <div class="h-px bg-gray-200 w-4"></div>
-            <div class="h-px bg-gray-200 w-2.5"></div>
-            <div class="h-px bg-gray-200 w-4"></div>
-            <div class="h-px bg-gray-200 w-2.5"></div>
-            <div class="h-px bg-gray-200 w-4"></div>
+            <div class="h-px bg-coolGray-200 w-4"></div>
+            <div class="h-px bg-coolGray-200 w-2.5"></div>
+            <div class="h-px bg-coolGray-200 w-4"></div>
+            <div class="h-px bg-coolGray-200 w-2.5"></div>
+            <div class="h-px bg-coolGray-200 w-4"></div>
           </div>
         </div>
         <div class="flex-1">
           <TwClass name="text-center" tooltip="text-align: center" class="mb-1">center</TwClass>
           <div class="flex flex-wrap gap-y-0.5 ml-0.5 w-4 justify-center">
-            <div class="h-px bg-gray-200 w-4"></div>
-            <div class="h-px bg-gray-200 w-2.5"></div>
-            <div class="h-px bg-gray-200 w-4"></div>
-            <div class="h-px bg-gray-200 w-2.5"></div>
-            <div class="h-px bg-gray-200 w-4"></div>
+            <div class="h-px bg-coolGray-200 w-4"></div>
+            <div class="h-px bg-coolGray-200 w-2.5"></div>
+            <div class="h-px bg-coolGray-200 w-4"></div>
+            <div class="h-px bg-coolGray-200 w-2.5"></div>
+            <div class="h-px bg-coolGray-200 w-4"></div>
           </div>
         </div>
         <div class="flex-1">
           <TwClass name="text-right" tooltip="text-align: right" class="mb-1">right</TwClass>
           <div class="flex flex-wrap gap-y-0.5 ml-0.5 w-4 justify-end">
-            <div class="h-px bg-gray-200 w-4"></div>
-            <div class="h-px bg-gray-200 w-2.5"></div>
-            <div class="h-px bg-gray-200 w-4"></div>
-            <div class="h-px bg-gray-200 w-2.5"></div>
-            <div class="h-px bg-gray-200 w-4"></div>
+            <div class="h-px bg-coolGray-200 w-4"></div>
+            <div class="h-px bg-coolGray-200 w-2.5"></div>
+            <div class="h-px bg-coolGray-200 w-4"></div>
+            <div class="h-px bg-coolGray-200 w-2.5"></div>
+            <div class="h-px bg-coolGray-200 w-4"></div>
           </div>
         </div>
         <div class="flex-1">
           <TwClass name="text-justify" tooltip="text-align: justify" class="mb-1">justify</TwClass>
           <div class="flex flex-wrap gap-y-0.5 ml-0.5 w-4">
-            <div class="h-px bg-gray-200 w-4"></div>
-            <div class="h-px bg-gray-200 w-4"></div>
-            <div class="h-px bg-gray-200 w-4"></div>
-            <div class="h-px bg-gray-200 w-4"></div>
-            <div class="h-px bg-gray-200 w-4"></div>
+            <div class="h-px bg-coolGray-200 w-4"></div>
+            <div class="h-px bg-coolGray-200 w-4"></div>
+            <div class="h-px bg-coolGray-200 w-4"></div>
+            <div class="h-px bg-coolGray-200 w-4"></div>
+            <div class="h-px bg-coolGray-200 w-4"></div>
           </div>
         </div>
       </div>
@@ -55,7 +55,7 @@
         </div>
         <div>
           <div>current</div>
-          <div class="mt-1 font-sans text-current text-green-400">Abc</div>
+          <div class="mt-1 font-sans text-current text-emerald-400">Abc</div>
         </div>
       </div>
       <div class="flex gap-x-3 items-end 3xl:-mt-20 flex-wrap 3xl:flex-nowrap">

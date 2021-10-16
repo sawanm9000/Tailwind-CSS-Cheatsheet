@@ -45,7 +45,7 @@
         </div>
         <div>
           <TwClass name="ring-current" tooltip="--tw-ring-color: currentColor" class="w-max">-current</TwClass>
-          <div class="bg-blue-700 rounded-sm mt-1.5 w-8 h-8 flex justify-center items-center font-sans text-green-400 ring ring-current">Hi</div>
+          <div class="bg-blue-700 rounded-sm mt-1.5 w-8 h-8 flex justify-center items-center font-sans text-emerald-400 ring ring-current">Hi</div>
         </div>
       </div>
     </div>

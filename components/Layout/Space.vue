@@ -27,9 +27,9 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11 17l-5-5m0 0l5-5m-5 5h12" />
             </svg>
           </div>
-          <div class="bg-gray-600 h-8 w-8 rounded"></div>
-          <div class="bg-gray-600 h-8 w-8 rounded"></div>
-          <div class="bg-gray-600 h-8 w-8 rounded"></div>
+          <div class="bg-coolGray-600 h-8 w-8 rounded"></div>
+          <div class="bg-coolGray-600 h-8 w-8 rounded"></div>
+          <div class="bg-coolGray-600 h-8 w-8 rounded"></div>
         </div>
 
         <div class="w-max grid grid-flow-col grid-rows-2 auto-cols-min auto-rows-min gap-y-2">
@@ -43,22 +43,22 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 11l5-5m0 0l5 5m-5-5v12" />
             </svg>
           </div>
-          <div class="bg-gray-600 h-8 w-8 rounded"></div>
-          <div class="bg-gray-600 h-8 w-8 rounded"></div>
+          <div class="bg-coolGray-600 h-8 w-8 rounded"></div>
+          <div class="bg-coolGray-600 h-8 w-8 rounded"></div>
         </div>
       </div>
-      <!-- <div class="bg-gray-600 font-mono text-sm px-1.5 w-max mb-1.5 rounded-md mr-2">space-</div> -->
-      <div class="font-sans text-gray-400 text-sm mb-1.5">For <span class="font-mono text-xs text-gray-200">flex-row-reverse</span> & <span class="font-mono text-xs text-gray-200">flex-col-reverse</span></div>
+      <!-- <div class="bg-coolGray-600 font-mono text-sm px-1.5 w-max mb-1.5 rounded-md mr-2">space-</div> -->
+      <div class="font-sans text-coolGray-400 text-sm mb-1.5">For <span class="font-mono text-xs text-coolGray-200">flex-row-reverse</span> & <span class="font-mono text-xs text-coolGray-200">flex-col-reverse</span></div>
     <div class="grid grid-cols-2 gap-x-2 gap-y-1">
       <TwClass name="space-x-reverse" tooltip="--tw-space-x-reverse: 1">space-x-reverse</TwClass>
       <TwClass name="space-y-reverse" tooltip="--tw-space-y-reverse: 1">space-y-reverse</TwClass>
 
-      <div class="h-11 p-1.5 border border-gray-400 rounded-md flex flex-row-reverse space-x-1.5 space-x-reverse">
+      <div class="h-11 p-1.5 border border-coolGray-400 rounded-md flex flex-row-reverse space-x-1.5 space-x-reverse">
         <div class="h-8 w-8 bg-blue-600 flex items-center justify-center rounded">1</div>
         <div class="h-8 w-8 bg-blue-600 flex items-center justify-center rounded">2</div>
         <div class="h-8 w-8 bg-blue-600 flex items-center justify-center rounded">3</div>
       </div>
-      <div class="w-min h-24 p-1 border border-gray-400 rounded-md flex flex-col-reverse space-y-1.5 space-y-reverse">
+      <div class="w-min h-24 p-1 border border-coolGray-400 rounded-md flex flex-col-reverse space-y-1.5 space-y-reverse">
         <div class="w-8 h-8 bg-blue-600 flex items-center justify-center rounded">1</div>
         <div class="w-8 h-8 bg-blue-600 flex items-center justify-center rounded">2</div>
       </div>

@@ -11,54 +11,54 @@
           <TwClass name="row-span-5" tooltip="grid-row: span 5 / span 5" class="flex-1 text-center w-5">5</TwClass>
           <TwClass name="row-span-6" tooltip="grid-row: span 6 / span 6" class="flex-1 text-center w-5">6</TwClass>
         </div>
-        <div class="grid grid-cols-6 grid-rows-6 bg-gray-400 gap-px p-px">
-          <div class="bg-green-600 m-0.5 row-start-1 rounded z-10 col-start-1 row-span-1"></div>
-          <div class="bg-gray-800 h-4 row-start-1 col-start-1"></div>
-          <div class="bg-gray-800 h-4 row-start-1 col-start-2"></div>
-          <div class="bg-gray-800 h-4 row-start-1 col-start-3"></div>
-          <div class="bg-gray-800 h-4 row-start-1 col-start-4"></div>
-          <div class="bg-gray-800 h-4 row-start-1 col-start-5"></div>
-          <div class="bg-gray-800 h-4 row-start-1 col-start-6"></div>
+        <div class="grid grid-cols-6 grid-rows-6 bg-coolGray-400 gap-px p-px">
+          <div class="bg-emerald-600 m-0.5 row-start-1 rounded z-10 col-start-1 row-span-1"></div>
+          <div class="bg-coolGray-800 h-4 row-start-1 col-start-1"></div>
+          <div class="bg-coolGray-800 h-4 row-start-1 col-start-2"></div>
+          <div class="bg-coolGray-800 h-4 row-start-1 col-start-3"></div>
+          <div class="bg-coolGray-800 h-4 row-start-1 col-start-4"></div>
+          <div class="bg-coolGray-800 h-4 row-start-1 col-start-5"></div>
+          <div class="bg-coolGray-800 h-4 row-start-1 col-start-6"></div>
 
-          <div class="bg-green-600 m-0.5 row-start-1 rounded z-10 col-start-2 row-span-2"></div>
-          <div class="bg-gray-800 h-4 row-start-2 col-start-1"></div>
-          <div class="bg-gray-800 h-4 row-start-2 col-start-2"></div>
-          <div class="bg-gray-800 h-4 row-start-2 col-start-3"></div>
-          <div class="bg-gray-800 h-4 row-start-2 col-start-4"></div>
-          <div class="bg-gray-800 h-4 row-start-2 col-start-5"></div>
-          <div class="bg-gray-800 h-4 row-start-2 col-start-6"></div>
+          <div class="bg-emerald-600 m-0.5 row-start-1 rounded z-10 col-start-2 row-span-2"></div>
+          <div class="bg-coolGray-800 h-4 row-start-2 col-start-1"></div>
+          <div class="bg-coolGray-800 h-4 row-start-2 col-start-2"></div>
+          <div class="bg-coolGray-800 h-4 row-start-2 col-start-3"></div>
+          <div class="bg-coolGray-800 h-4 row-start-2 col-start-4"></div>
+          <div class="bg-coolGray-800 h-4 row-start-2 col-start-5"></div>
+          <div class="bg-coolGray-800 h-4 row-start-2 col-start-6"></div>
 
-          <div class="bg-green-600 m-0.5 row-start-1 rounded z-10 col-start-3 row-span-3"></div>
-          <div class="bg-gray-800 h-4 row-start-3 col-start-1"></div>
-          <div class="bg-gray-800 h-4 row-start-3 col-start-2"></div>
-          <div class="bg-gray-800 h-4 row-start-3 col-start-3"></div>
-          <div class="bg-gray-800 h-4 row-start-3 col-start-4"></div>
-          <div class="bg-gray-800 h-4 row-start-3 col-start-5"></div>
-          <div class="bg-gray-800 h-4 row-start-3 col-start-6"></div>
+          <div class="bg-emerald-600 m-0.5 row-start-1 rounded z-10 col-start-3 row-span-3"></div>
+          <div class="bg-coolGray-800 h-4 row-start-3 col-start-1"></div>
+          <div class="bg-coolGray-800 h-4 row-start-3 col-start-2"></div>
+          <div class="bg-coolGray-800 h-4 row-start-3 col-start-3"></div>
+          <div class="bg-coolGray-800 h-4 row-start-3 col-start-4"></div>
+          <div class="bg-coolGray-800 h-4 row-start-3 col-start-5"></div>
+          <div class="bg-coolGray-800 h-4 row-start-3 col-start-6"></div>
 
-          <div class="bg-green-600 m-0.5 row-start-1 rounded z-10 col-start-4 row-span-4"></div>
-          <div class="bg-gray-800 h-4 row-start-4 col-start-1"></div>
-          <div class="bg-gray-800 h-4 row-start-4 col-start-2"></div>
-          <div class="bg-gray-800 h-4 row-start-4 col-start-3"></div>
-          <div class="bg-gray-800 h-4 row-start-4 col-start-4"></div>
-          <div class="bg-gray-800 h-4 row-start-4 col-start-5"></div>
-          <div class="bg-gray-800 h-4 row-start-4 col-start-6"></div>
+          <div class="bg-emerald-600 m-0.5 row-start-1 rounded z-10 col-start-4 row-span-4"></div>
+          <div class="bg-coolGray-800 h-4 row-start-4 col-start-1"></div>
+          <div class="bg-coolGray-800 h-4 row-start-4 col-start-2"></div>
+          <div class="bg-coolGray-800 h-4 row-start-4 col-start-3"></div>
+          <div class="bg-coolGray-800 h-4 row-start-4 col-start-4"></div>
+          <div class="bg-coolGray-800 h-4 row-start-4 col-start-5"></div>
+          <div class="bg-coolGray-800 h-4 row-start-4 col-start-6"></div>
 
-          <div class="bg-green-600 m-0.5 row-start-1 rounded z-10 col-start-5 row-span-5"></div>
-          <div class="bg-gray-800 h-4 row-start-5 col-start-1"></div>
-          <div class="bg-gray-800 h-4 row-start-5 col-start-2"></div>
-          <div class="bg-gray-800 h-4 row-start-5 col-start-3"></div>
-          <div class="bg-gray-800 h-4 row-start-5 col-start-4"></div>
-          <div class="bg-gray-800 h-4 row-start-5 col-start-5"></div>
-          <div class="bg-gray-800 h-4 row-start-5 col-start-6"></div>
+          <div class="bg-emerald-600 m-0.5 row-start-1 rounded z-10 col-start-5 row-span-5"></div>
+          <div class="bg-coolGray-800 h-4 row-start-5 col-start-1"></div>
+          <div class="bg-coolGray-800 h-4 row-start-5 col-start-2"></div>
+          <div class="bg-coolGray-800 h-4 row-start-5 col-start-3"></div>
+          <div class="bg-coolGray-800 h-4 row-start-5 col-start-4"></div>
+          <div class="bg-coolGray-800 h-4 row-start-5 col-start-5"></div>
+          <div class="bg-coolGray-800 h-4 row-start-5 col-start-6"></div>
 
-          <div class="bg-green-600 m-0.5 row-start-1 rounded z-10 col-start-6 row-span-6"></div>
-          <div class="bg-gray-800 h-4 row-start-6 col-start-1"></div>
-          <div class="bg-gray-800 h-4 row-start-6 col-start-2"></div>
-          <div class="bg-gray-800 h-4 row-start-6 col-start-3"></div>
-          <div class="bg-gray-800 h-4 row-start-6 col-start-4"></div>
-          <div class="bg-gray-800 h-4 row-start-6 col-start-5"></div>
-          <div class="bg-gray-800 h-4 row-start-6 col-start-6"></div>
+          <div class="bg-emerald-600 m-0.5 row-start-1 rounded z-10 col-start-6 row-span-6"></div>
+          <div class="bg-coolGray-800 h-4 row-start-6 col-start-1"></div>
+          <div class="bg-coolGray-800 h-4 row-start-6 col-start-2"></div>
+          <div class="bg-coolGray-800 h-4 row-start-6 col-start-3"></div>
+          <div class="bg-coolGray-800 h-4 row-start-6 col-start-4"></div>
+          <div class="bg-coolGray-800 h-4 row-start-6 col-start-5"></div>
+          <div class="bg-coolGray-800 h-4 row-start-6 col-start-6"></div>
         </div>
       </div>
     </div>

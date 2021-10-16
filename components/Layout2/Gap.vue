@@ -36,10 +36,10 @@
           </div>
         </div>
         <div class="col-start-2 row-start-2 row-span-2 col-span-2 grid grid-cols-2 grid-rows-2 gap-2">
-          <div class="bg-gray-600 h-8 w-8 rounded"></div>
-          <div class="bg-gray-600 h-8 w-8 rounded"></div>
-          <div class="bg-gray-600 h-8 w-8 rounded"></div>
-          <div class="bg-gray-600 h-8 w-8 rounded"></div>
+          <div class="bg-coolGray-600 h-8 w-8 rounded"></div>
+          <div class="bg-coolGray-600 h-8 w-8 rounded"></div>
+          <div class="bg-coolGray-600 h-8 w-8 rounded"></div>
+          <div class="bg-coolGray-600 h-8 w-8 rounded"></div>
         </div>
       </div>
     </div>

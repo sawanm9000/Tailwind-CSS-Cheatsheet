@@ -6,7 +6,7 @@
     <div class="content">
       <div class="flex mb-5">
         <TwClass name="z-auto" tooltip="z-index: 0" class="flex-1">auto</TwClass>
-        <div class="flex-1 text-green-400">auto</div>
+        <div class="flex-1 text-emerald-400">auto</div>
       </div>
       <div class="flex flex-col h-52">
         <div class="flex items-center h-9 z-50">

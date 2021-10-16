@@ -7,7 +7,7 @@
       <div class="grid grid-cols-4 gap-x-3">
         <div class="content-row">
           <TwClass name="min-w-0" tooltip="min-width: 0px" class="w-max">0</TwClass>
-          <div><span class="text-green-400">0px</span></div>
+          <div><span class="text-emerald-400">0px</span></div>
         </div>
         <div class="content-row">
           <TwClass name="min-w-min" tooltip="min-width: min-content" class="w-max">min</TwClass>
@@ -19,7 +19,7 @@
         </div>
         <div class="content-row">
           <TwClass name="min-w-full" tooltip="min-width: 100%" class="w-max">full</TwClass>
-          <div class="border border-gray-300 h-14">
+          <div class="border border-coolGray-300 h-14">
             <div class="bg-blue-600 w-full flex justify-between items-center">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M11 17l-5-5m0 0l5-5m-5 5h12" />

@@ -99,7 +99,7 @@
     div {
       @apply text-center mb-0.5 space-x-0.5;
       div {
-        @apply bg-gray-600;
+        @apply bg-coolGray-600;
       }
     }
   }

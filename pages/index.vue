@@ -17,7 +17,7 @@
     <div class="w-full sm:flex sm:justify-center sm:items-center">
       <Nav />
     </div>
-    <footer class="sm:fixed sm:bottom-0 p-5 text-center text-gray-400 text-sm justify-between w-full flex">
+    <footer class="sm:fixed sm:bottom-0 p-5 text-center text-coolGray-400 text-sm justify-between w-full flex">
       <div>Optimized for 1080p displays</div>
       <div>Tailwind CSS v2.1</div>
       <div>Tailwind CSS Cheat Sheet is not affiliated with Tailwind Labs</div>
@@ -37,6 +37,6 @@ export default {
 
 <style lang="scss" scoped>
 .separator {
-  @apply border-r border-gray-400;
+  @apply border-r border-coolGray-400;
 }
 </style>

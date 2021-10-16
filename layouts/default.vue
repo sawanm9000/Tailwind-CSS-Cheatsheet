@@ -164,7 +164,7 @@ export default {
 <style lang="scss">
 html,
 body {
-  @apply bg-gray-900 text-white;
+  @apply bg-coolGray-900 text-white;
 }
 
 body > * {
@@ -179,7 +179,7 @@ body > * {
   font-size: 0.5rem;
   line-height: 1;
 
-  @apply p-1 text-gray-200 font-sans;
+  @apply p-1 text-coolGray-200 font-sans;
 }
 
 .scroll-box {
@@ -196,6 +196,6 @@ body > * {
 }
 
 .scroll-box::-webkit-scrollbar-thumb {
-  @apply bg-gray-500;
+  @apply bg-coolGray-500;
 }
 </style>
