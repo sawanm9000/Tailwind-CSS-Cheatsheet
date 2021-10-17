@@ -20,9 +20,9 @@
       <div>5. Filters</div>
       <div>Filters and color blend</div>
     </NuxtLink>
-    <NuxtLink to="/transitions" class="nav-button">
-      <div>6. Transition</div>
-      <div>Transition, animation and transform</div>
+    <NuxtLink to="/transform" class="nav-button">
+      <div>6. Transform</div>
+      <div>Transform, animation and transition</div>
     </NuxtLink>
     <NuxtLink to="/interactivity" class="nav-button">
       <div>7. Interactivity</div>

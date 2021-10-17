@@ -1,0 +1,29 @@
+<template>
+  <Card>
+    <div class="prefix">
+      <Lnk href="https://www.example.com">transform-</Lnk></div>
+    <div class="content">
+      <div class="grid grid-cols-3 gap-2">
+        <div>
+          <TwClass name="" tooltip="">text</TwClass>
+          <div class="h-20 mt-1 bg-coolGray-600 rounded"></div>
+        </div>
+        <div>
+          <TwClass name="" tooltip="">text</TwClass>
+          <div class="h-20 mt-1 bg-coolGray-600 rounded"></div>
+        </div>
+        <div>
+          <TwClass name="" tooltip="">text</TwClass>
+          <div class="h-20 mt-1 bg-coolGray-600 rounded"></div>
+        </div>
+
+      </div>
+    </div>
+  </Card>
+</template>
+
+<script>
+  export default {
+
+  }
+</script>

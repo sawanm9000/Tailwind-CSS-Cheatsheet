@@ -31,7 +31,7 @@
 export default {
   data() {
     return {
-      routes: ['layout', 'layout2', 'typography', 'style', 'filters', 'transitions', 'interactivity'],
+      routes: ['layout', 'layout2', 'typography', 'style', 'filters', 'transform', 'interactivity'],
       mouseButtonDown: false,
       tooltip: false,
       now: 0,

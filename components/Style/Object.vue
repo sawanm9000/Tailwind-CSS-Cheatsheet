@@ -1,7 +1,7 @@
 <template>
   <Card>
     <div class="prefix">
-      <Lnk href="https://www.example.com">object-</Lnk>
+      <Lnk href="https://tailwindcss.com/docs/object-fit">object-</Lnk>
     </div>
     <div class="content">
       <div class="grid grid-cols-3 gap-2">

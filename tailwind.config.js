@@ -57,7 +57,6 @@ module.exports = {
         gray: colors.gray,
         coolGray: colors.coolGray,
         blueGray: colors.blueGray,
-
       },
       screens: {
         '3xl': '1920px',
@@ -67,8 +66,8 @@ module.exports = {
         120: '30rem',
       },
       gridTemplateColumns: {
-         '13': 'repeat(13, minmax(0, 1fr))',
-         '14': 'repeat(14, minmax(0, 1fr))',
+        13: 'repeat(13, minmax(0, 1fr))',
+        14: 'repeat(14, minmax(0, 1fr))',
       },
       gridTemplateRows: {
         7: 'repeat(7, minmax(0, 1fr))',
@@ -124,5 +123,6 @@ module.exports = {
   plugins: [
     require('@tailwindcss/typography'),
     require('@tailwindcss/line-clamp'),
+    require('@tailwindcss/aspect-ratio'),
   ],
 }
