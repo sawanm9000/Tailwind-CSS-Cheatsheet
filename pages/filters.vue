@@ -45,6 +45,6 @@
 
 <style lang="scss" scoped>
 .card-bg-img {
-  background-image: url('/jordan-whitt-EerxztHCjM8-unsplash-640.jpg');
+  background-image: url('/Tailwind-CSS-Cheatsheet/jordan-whitt-EerxztHCjM8-unsplash-640.jpg');
 }
 </style>
