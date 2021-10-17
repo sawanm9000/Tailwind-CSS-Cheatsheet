@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-2 grid-rows-4 sm:grid-cols-3 sm:grid-rows-3 md:grid-cols-4 md:grid-rows-2 xl:grid-cols-7 xl:grid-rows-1 gap-y-5 gap-x-5 sm:gap-y-5 sm:gap-5 justify-items-stretch md:justify-items-center sm:h-auto p-5 sm:p-0">
+  <div class="flex flex-col w-max max-w-full divide-y divide-white divide-opacity-30">
     <NuxtLink to="/layout" class="nav-button">
       <div>1. Layout</div>
       <div>Box size, positioning, margin, overflow, and over scroll</div>
@@ -40,10 +40,20 @@ export default {
 
 <style lang="scss" scoped>
 .nav-button {
-	@apply sm:w-40 h-40 px-3 py-1.5 bg-coolGray-800 rounded-lg border-2 border-coolGray-700 hover:bg-coolGray-700 hover:border-coolGray-600;
+	@apply flex-1 h-24 px-3 py-2 hover:bg-coolGray-700;
 
   div:first-child {
-    @apply text-lg font-semibold mb-1.5 whitespace-nowrap;
+    @apply text-lg text-coolGray-200 font-semibold mb-1.5 whitespace-nowrap;
+  }
+
+  div:nth-child(2) {
+    @apply text-coolGray-400;
+  }
+}
+
+.nav-button:hover {
+  div:first-child {
+    @apply text-white;
   }
 
   div:nth-child(2) {

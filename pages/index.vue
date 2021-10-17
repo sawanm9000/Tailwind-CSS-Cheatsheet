@@ -1,8 +1,9 @@
 <template>
-  <div class="min-h-full flex flex-col justify-center">
-    <header class="w-full max-w-screen-xl fixed top-0 -inset-x-0 mx-auto">
-      <div class="flex justify-center sm:justify-between p-4">
-        <div class="flex gap-x-2">
+  <div class="min-h-full flex flex-col justify-between items-center">
+
+    <header class="w-full flex justify-center">
+      <div class="flex justify-center container max-w-screen-xl sm:justify-between p-4">
+        <div class="flex gap-x-2 items-center">
           <img src="icon.png" alt="Logo" style="height: 32px; width: 32px;">
           <h1 class="text-2xl text-center font-bold">Tailwind CSS Cheat Sheet (WIP)</h1>
         </div>
@@ -14,14 +15,21 @@
         </div>
       </div>
     </header>
-    <div class="w-full sm:flex sm:justify-center sm:items-center">
-      <Nav />
+
+    <!-- <input id="search" type="search" name="Search" placeholder="Search (Ctrl+K)" class="w-96 max-w-full px-3 py-2 m-3 bg-coolGray-600"> -->
+
+    <div class="flex items-center max-w-full">
+      <div class="w-full flex justify-center">
+        <Nav class="border-t border-b-4 border-l border-r border-opacity-30 rounded overflow-hidden bg-coolGray-800" />
+      </div>
     </div>
-    <footer class="sm:fixed sm:bottom-0 p-5 text-center text-coolGray-400 text-sm justify-between w-full flex">
+
+    <footer class="p-5 text-center text-coolGray-400 text-sm w-full md:flex md:justify-between">
       <div>Optimized for 1080p displays</div>
       <div>Tailwind CSS v2.1</div>
       <div>Tailwind CSS Cheat Sheet is not affiliated with Tailwind Labs</div>
     </footer>
+
   </div>
 </template>
 
@@ -32,6 +40,10 @@ export default {
       title: 'Tailwind CSS Cheatsheet (WIP)',
     }
   },
+
+  mounted() {
+    this.$nuxt.$emit('showDrawer');
+  }
 }
 </script>
 
