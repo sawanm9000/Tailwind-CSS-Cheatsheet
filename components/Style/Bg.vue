@@ -39,65 +39,65 @@
       <div class="grid grid-cols-3 gap-2 mt-2">
         <div>
           <TwClass class="w-max" name="bg-repeat" tooltip="background-repeat: repeat">repeat</TwClass>
-          <div class="h-16 mt-1 rounded bg-coolGray-700 bg-repeat" style="background-image: url(jordan-whitt-EerxztHCjM8-unsplash.jpg)"></div>
+          <div class="bg-img h-16 mt-1 rounded bg-coolGray-700 bg-repeat"></div>
         </div>
         <div>
           <TwClass class="w-max" name="bg-no-repeat" tooltip="background-repeat: no-repeat">no-repeat</TwClass>
-          <div class="h-16 mt-1 rounded bg-coolGray-700 bg-no-repeat" style="background-image: url(jordan-whitt-EerxztHCjM8-unsplash.jpg)"></div>
+          <div class="bg-img h-16 mt-1 rounded bg-coolGray-700 bg-no-repeat"></div>
         </div>
         <div>
           <TwClass class="w-max" name="bg-repeat-x" tooltip="background-repeat: repeat-x">repeat-x</TwClass>
-          <div class="h-16 mt-1 rounded bg-coolGray-700 bg-repeat-x" style="background-image: url(jordan-whitt-EerxztHCjM8-unsplash.jpg)"></div>
+          <div class="bg-img h-16 mt-1 rounded bg-coolGray-700 bg-repeat-x"></div>
         </div>
         <div>
           <TwClass class="w-max" name="bg-repeat-y" tooltip="background-repeat: repeat-y">repeat-y</TwClass>
-          <div class="h-16 mt-1 rounded bg-coolGray-700 bg-repeat-y" style="background-image: url(jordan-whitt-EerxztHCjM8-unsplash.jpg)"></div>
+          <div class="bg-img h-16 mt-1 rounded bg-coolGray-700 bg-repeat-y"></div>
         </div>
         <div>
           <TwClass class="w-max" name="bg-repeat-round" tooltip="background-repeat: round">repeat-round</TwClass>
-          <div class="h-16 mt-1 rounded bg-coolGray-700 bg-repeat-round" style="background-image: url(jordan-whitt-EerxztHCjM8-unsplash.jpg)"></div>
+          <div class="bg-img h-16 mt-1 rounded bg-coolGray-700 bg-repeat-round"></div>
         </div>
         <div>
           <TwClass class="w-max" name="bg-repeat-space" tooltip="background-repeat: space">repeat-space</TwClass>
-          <div class="h-16 mt-1 rounded bg-coolGray-700 bg-repeat-space" style="background-image: url(jordan-whitt-EerxztHCjM8-unsplash.jpg)"></div>
+          <div class="bg-img h-16 mt-1 rounded bg-coolGray-700 bg-repeat-space"></div>
         </div>
       </div>
       <div class="grid grid-cols-3 gap-2 mt-2">
         <div>
           <TwClass class="w-max" name="bg-left-top" tooltip="background-position: left top">left-top</TwClass>
-          <div class="mt-1 h-14 rounded bg-no-repeat bg-coolGray-700 bg-left-top" style="background-image: url(jordan-whitt-EerxztHCjM8-unsplash.jpg)"></div>
+          <div class="bg-img mt-1 h-14 rounded bg-no-repeat bg-coolGray-700 bg-left-top"></div>
         </div>
         <div>
           <TwClass class="w-max" name="bg-top" tooltip="background-position: top">top</TwClass>
-          <div class="mt-1 h-14 rounded bg-no-repeat bg-coolGray-700 bg-top" style="background-image: url(jordan-whitt-EerxztHCjM8-unsplash.jpg)"></div>
+          <div class="bg-img mt-1 h-14 rounded bg-no-repeat bg-coolGray-700 bg-top"></div>
         </div>
         <div>
           <TwClass class="w-max" name="bg-right-top" tooltip="background-position: right top">right-top</TwClass>
-          <div class="mt-1 h-14 rounded bg-no-repeat bg-coolGray-700 bg-right-top" style="background-image: url(jordan-whitt-EerxztHCjM8-unsplash.jpg)"></div>
+          <div class="bg-img mt-1 h-14 rounded bg-no-repeat bg-coolGray-700 bg-right-top"></div>
         </div>
         <div>
           <TwClass class="w-max" name="bg-left" tooltip="background-position: left">left</TwClass>
-          <div class="mt-1 h-14 rounded bg-no-repeat bg-coolGray-700 bg-left" style="background-image: url(jordan-whitt-EerxztHCjM8-unsplash.jpg)"></div>
+          <div class="bg-img mt-1 h-14 rounded bg-no-repeat bg-coolGray-700 bg-left"></div>
         </div>
         <div>
           <TwClass class="w-max" name="bg-center" tooltip="background-position: center">center</TwClass>
-          <div class="mt-1 h-14 rounded bg-no-repeat bg-coolGray-700 bg-center" style="background-image: url(jordan-whitt-EerxztHCjM8-unsplash.jpg)"></div>
+          <div class="bg-img mt-1 h-14 rounded bg-no-repeat bg-coolGray-700 bg-center"></div>
         </div>
         <div>
           <TwClass class="w-max" name="bg-right" tooltip="background-position: right">right</TwClass>
-          <div class="mt-1 h-14 rounded bg-no-repeat bg-coolGray-700 bg-right" style="background-image: url(jordan-whitt-EerxztHCjM8-unsplash.jpg)"></div>
+          <div class="bg-img mt-1 h-14 rounded bg-no-repeat bg-coolGray-700 bg-right"></div>
         </div>
         <div>
           <TwClass class="w-max" name="bg-left-bottom" tooltip="background-position: left bottom">left-bottom</TwClass>
-          <div class="mt-1 h-14 rounded bg-no-repeat bg-coolGray-700 bg-left-bottom" style="background-image: url(jordan-whitt-EerxztHCjM8-unsplash.jpg)"></div>
+          <div class="bg-img mt-1 h-14 rounded bg-no-repeat bg-coolGray-700 bg-left-bottom"></div>
         </div>
         <div>
           <TwClass class="w-max" name="bg-bottom" tooltip="background-position: bottom">bottom</TwClass>
-          <div class="mt-1 h-14 rounded bg-no-repeat bg-coolGray-700 bg-bottom" style="background-image: url(jordan-whitt-EerxztHCjM8-unsplash.jpg)"></div>
+          <div class="bg-img mt-1 h-14 rounded bg-no-repeat bg-coolGray-700 bg-bottom"></div>
         </div>
         <div>
           <TwClass class="w-max" name="bg-right-bottom" tooltip="background-position: right bottom">right-bottom</TwClass>
-          <div class="mt-1 h-14 rounded bg-no-repeat bg-coolGray-700 bg-right-bottom" style="background-image: url(jordan-whitt-EerxztHCjM8-unsplash.jpg)"></div>
+          <div class="bg-img mt-1 h-14 rounded bg-no-repeat bg-coolGray-700 bg-right-bottom"></div>
         </div>
       </div>
       <div class="grid grid-cols-3 gap-2 mt-2">
@@ -160,3 +160,8 @@
 export default {}
 </script>
 
+<style lang="scss" scoped>
+.bg-img {
+  background-image: url('/jordan-whitt-EerxztHCjM8-unsplash.jpg');
+}
+</style>

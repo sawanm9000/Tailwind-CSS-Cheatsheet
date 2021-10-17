@@ -1,11 +1,17 @@
 <template>
-	<div class="card bg-coolGray-800 rounded-md">
+	<div class="card rounded-md" :class="theme === 'light' ? 'bg-coolGray-200' : 'bg-coolGray-800'">
 		<slot></slot>
 	</div>
 </template>
 
 <script>
 	export default {
+    props: {
+      theme: {
+        type: String,
+        default: 'dark'
+      }
+    }
 	}
 </script>
 

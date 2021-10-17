@@ -1,12 +1,36 @@
 <template>
-	<div class="w-screen h-screen flex justify-center items-center overflow-hidden">
-    <div class="text-center space-y-5">
-      <h1 class="text-5xl font-bold">Coming soon!</h1>
-      <div>
-        <NuxtLink to="/" class="text-blue-400">← Home page</NuxtLink>
+	<div class="flex justify-center items-stretch min-h-screen">
+    <div class="self-stretch flex items-center p-1.5 gap-1.5 3xl:container">
+      <div class="flex-1 flex-grow flex flex-col gap-y-1.5">
+        <FiltersFilter />
+        <FiltersBlur />
+        <FiltersBrightness />
+        <FiltersContrast />
+        <FiltersGrayscale />
+        <FiltersHueRotate />
+        <FiltersInvert />
+        <FiltersSaturate />
+        <FiltersSepia />
+      </div>
+      <div class="flex-1 flex-grow flex flex-col gap-y-1.5">
+        <FiltersBackdropFilter />
+        <FiltersBackdropBlur />
+        <FiltersBackdropBrightness />
+        <FiltersBackdropContrast />
+        <FiltersBackdropGrayscale />
+        <FiltersBackdropHueRotate />
+        <FiltersBackdropInvert />
+        <FiltersBackdropSaturate />
+        <FiltersBackdropSepia />
+      </div>
+      <div class="flex-1 flex-grow flex flex-col gap-y-1.5">
+        <FiltersDropShadow />
+        <FiltersBackdropOpacity />
+        <FiltersMixBlend />
+        <FiltersBgBlend />
       </div>
     </div>
-  </div>
+	</div>
 </template>
 
 <script>
@@ -18,3 +42,9 @@
 		},
 	}
 </script>
+
+<style lang="scss" scoped>
+.card-bg-img {
+  background-image: url('/jordan-whitt-EerxztHCjM8-unsplash-640.jpg');
+}
+</style>
