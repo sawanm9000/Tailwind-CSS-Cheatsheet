@@ -1,23 +1,25 @@
 <template>
   <div class="min-h-full h-full overflow-x-hidden relative">
     <Nuxt />
-    <div class="fixed md:absolute top-0 left-0 z-50 bg-coolGray-900 ring-2 ring-black ring-offset-0 ring-opacity-50 h-screen overflow-y-scroll md:overflow-hidden flex flex-col justify-between max-w-full" :class="drawer ? 'w-max' : 'w-1.5 opacity-0'" @mouseenter="toggleDrawer(true)" @mouseleave="toggleDrawer(false)">
-      <div>
-        <NuxtLink to="/" class="flex gap-x-2 justify-center py-4">
-          <img src="icon.png" alt="Logo" style="height: 32px; width: 32px;">
-          <div class="text-xl font-semibold">Tailwind CSS Cheatsheet (WIP)</div>
-        </NuxtLink>
-        <Nav />
-      </div>
-      <div class="p-3 flex flex-col">
-        <div class="mb-4 flex flex-col gap-2">
-          <Lnk href="https://tailwindcss.com/docs">Documentation</Lnk>
-          <Lnk href="https://github.com/sawanm9000/Tailwind-CSS-Cheatsheet">GitHub</Lnk>
+    <div class="fixed md:absolute top-0 left-0 z-50 bg-coolGray-900 ring-2 ring-black ring-offset-0 ring-opacity-50 h-screen overflow-y-scroll md:overflow-hidden max-w-full" :class="drawer ? 'w-max' : 'w-1.5 opacity-0'" @mouseover="toggleDrawer(true)" @mouseleave="toggleDrawer(false)">
+      <div class="h-full sm:w-max flex flex-col justify-between">
+        <div>
+          <NuxtLink to="/" class="flex gap-x-2 justify-center py-4">
+            <img src="icon.png" alt="Logo" style="height: 32px; width: 32px;">
+            <div class="text-xl font-semibold">Tailwind CSS Cheatsheet (WIP)</div>
+          </NuxtLink>
+          <Nav button="no" />
         </div>
-        <div class="text-coolGray-400 text-sm">
-          <div>Optimized for 1080p displays</div>
-          <div>Tailwind CSS v2.1</div>
-          <div>Tailwind CSS Cheat Sheet is not affiliated with Tailwind Labs</div>
+        <div class="p-3 flex flex-col">
+          <div class="mb-4 flex flex-col gap-2">
+            <Lnk href="https://tailwindcss.com/docs">Documentation</Lnk>
+            <Lnk href="https://github.com/sawanm9000/Tailwind-CSS-Cheatsheet">GitHub</Lnk>
+          </div>
+          <div class="text-coolGray-400 text-sm">
+            <div>Optimized for 1080p displays</div>
+            <div>Tailwind CSS v2.1</div>
+            <div>Tailwind CSS Cheat Sheet is not affiliated with Tailwind Labs</div>
+          </div>
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col w-max max-w-full divide-y divide-white divide-opacity-30">
+  <div class="nav flex flex-col w-max max-w-full" :class="button === 'yes' ? 'button gap-y-2' : 'divide-y divide-white divide-opacity-20'">
     <NuxtLink to="/layout" class="nav-button">
       <div>1. Layout</div>
       <div>Box size, positioning, margin, overflow, and over scroll</div>
@@ -33,7 +33,12 @@
 
 <script>
 export default {
-
+  props: {
+    button: {
+      type: String,
+      default: 'yes'
+    }
+  }
 }
 
 </script>
@@ -43,7 +48,7 @@ export default {
 	@apply flex-1 h-24 px-3 py-2;
 
   div:first-child {
-    @apply text-lg text-coolGray-200 font-semibold mb-1.5 whitespace-nowrap;
+    @apply text-xl text-coolGray-200 font-semibold mb-1 whitespace-nowrap;
   }
 
   div:nth-child(2) {
@@ -60,6 +65,16 @@ export default {
 
   div:nth-child(2) {
     @apply text-coolGray-300;
+  }
+}
+
+.button {
+  .nav-button {
+    @apply border-2 border-opacity-20 rounded-md backdrop-filter backdrop-brightness-150;
+  }
+
+  .nav-button:hover {
+    @apply border-opacity-30 backdrop-brightness-200;
   }
 }
 </style>

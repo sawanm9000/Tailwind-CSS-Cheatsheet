@@ -18,9 +18,9 @@
 
     <!-- <input id="search" type="search" name="Search" placeholder="Search (Ctrl+K)" class="w-96 max-w-full px-3 py-2 m-3 bg-coolGray-600"> -->
 
-    <div class="flex items-center max-w-full">
+    <div class="flex items-center max-w-full p-2">
       <div class="w-full flex justify-center">
-        <Nav class="border-t border-b-4 border-l border-r border-opacity-30 rounded overflow-hidden bg-coolGray-800" />
+        <Nav button="yes" class="overflow-hidden" />
       </div>
     </div>
 
