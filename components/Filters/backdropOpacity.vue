@@ -4,7 +4,7 @@
       <Lnk href="https://tailwindcss.com/docs/backdrop-opacity">backdrop-opacity-</Lnk>
     </div>
     <div class="content">
-      <div class="flex gap-2">
+      <div class="grid grid-cols-8 3xl:flex gap-2">
         <div class="flex-1">
           <TwClass name="backdrop-opacity-0" tooltip="--tw-backdrop-opacity: opacity(0)" class="w-max px-1 rounded backdrop-filter backdrop-blur-sm backdrop-brightness-50">0</TwClass>
           <div class="h-8 w-full rounded mt-1 border border-opacity-30 backdrop-filter backdrop-invert backdrop-opacity-0"></div>

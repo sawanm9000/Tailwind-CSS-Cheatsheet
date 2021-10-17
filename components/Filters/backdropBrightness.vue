@@ -4,7 +4,7 @@
       <Lnk href="https://tailwindcss.com/docs/backdrop-brightness">backdrop-brightness-</Lnk>
     </div>
     <div class="content">
-      <div class="flex gap-2">
+      <div class="grid grid-cols-6 3xl:flex gap-2">
         <div class="flex-1">
           <TwClass name="backdrop-brightness-0" tooltip="--tw-backdrop-brightness: brightness(0)" class="w-max backdrop-blur-sm backdrop-filter backdrop-brightness-50 px-1 rounded">0</TwClass>
           <div class="h-12 rounded mt-1 border border-opacity-30 backdrop-filter backdrop-brightness-0"></div>
