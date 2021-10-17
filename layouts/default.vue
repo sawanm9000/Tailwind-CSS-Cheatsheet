@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-full h-full overflow-x-hidden relative">
     <Nuxt />
-    <div class="fixed md:absolute top-0 left-0 z-50 bg-coolGray-900 ring-2 ring-black ring-offset-0 ring-opacity-50 h-screen overflow-y-scroll md:overflow-hidden flex flex-col justify-between max-w-full" :class="drawer ? 'w-max' : 'w-0.5 z-0 opacity-0'" @mouseenter="toggleDrawer(true)" @mouseleave="toggleDrawer(false)">
+    <div class="fixed md:absolute top-0 left-0 z-50 bg-coolGray-900 ring-2 ring-black ring-offset-0 ring-opacity-50 h-screen overflow-y-scroll md:overflow-hidden flex flex-col justify-between max-w-full" :class="drawer ? 'w-max' : 'w-1.5 opacity-0'" @mouseenter="toggleDrawer(true)" @mouseleave="toggleDrawer(false)">
       <div>
         <NuxtLink to="/" class="flex gap-x-2 justify-center py-4">
           <img src="icon.png" alt="Logo" style="height: 32px; width: 32px;">
@@ -209,6 +209,10 @@ body > * {
 
 #__layout {
   @apply h-full;
+}
+
+.nuxt-link-exact-active {
+  @apply bg-blue-900;
 }
 
 .text-box-small {

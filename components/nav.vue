@@ -40,7 +40,7 @@ export default {
 
 <style lang="scss" scoped>
 .nav-button {
-	@apply flex-1 h-24 px-3 py-2 hover:bg-coolGray-700;
+	@apply flex-1 h-24 px-3 py-2;
 
   div:first-child {
     @apply text-lg text-coolGray-200 font-semibold mb-1.5 whitespace-nowrap;
@@ -52,6 +52,8 @@ export default {
 }
 
 .nav-button:hover {
+  @apply backdrop-filter backdrop-brightness-200;
+
   div:first-child {
     @apply text-white;
   }
