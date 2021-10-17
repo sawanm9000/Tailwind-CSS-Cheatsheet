@@ -9,7 +9,7 @@
         <div class="hidden sm:flex gap-4">
           <!-- <div>Help</div> -->
           <Lnk href="https://tailwindcss.com/docs">Documentation</Lnk>
-          <Lnk href="https://github.com/utopianknight/Tailwind-CSS-Cheatsheet">GitHub</Lnk>
+          <Lnk href="https://github.com/sawanm9000/Tailwind-CSS-Cheatsheet">GitHub</Lnk>
           <!-- <div class="separator"></div> -->
         </div>
       </div>
