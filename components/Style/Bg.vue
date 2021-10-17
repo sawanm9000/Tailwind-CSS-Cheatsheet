@@ -162,6 +162,6 @@ export default {}
 
 <style lang="scss" scoped>
 .bg-img {
-  background-image: url('/jordan-whitt-EerxztHCjM8-unsplash.jpg');
+  background-image: url('/Tailwind-CSS-Cheatsheet/jordan-whitt-EerxztHCjM8-unsplash.jpg');
 }
 </style>
