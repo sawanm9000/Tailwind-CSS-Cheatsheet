@@ -52,6 +52,14 @@
       <div class="font-sans text-coolGray-400 text-sm mb-2">Examples:</div>
       <div class="grid grid-cols-3 gap-x-2 gap-y-4 w-full">
         <div>
+          <div>translate-y-0</div>
+          <div class="h-20 mt-1 rounded flex justify-center items-center">
+            <div class="bg-coolGray-700 relative">
+              <img src="jordan-whitt-EerxztHCjM8-unsplash.jpg" class="transform translate-y-0">
+            </div>
+          </div>
+        </div>
+        <div>
           <div>-translate-y-6</div>
           <div class="h-20 mt-1 rounded flex justify-center items-center">
             <div class="bg-coolGray-700 relative">
@@ -68,10 +76,10 @@
           </div>
         </div>
         <div>
-          <div>translate-y-0</div>
+          <div>-translate-x-full</div>
           <div class="h-20 mt-1 rounded flex justify-center items-center">
             <div class="bg-coolGray-700 relative">
-              <img src="jordan-whitt-EerxztHCjM8-unsplash.jpg" class="transform translate-y-0">
+              <img src="jordan-whitt-EerxztHCjM8-unsplash.jpg" class="transform -translate-x-full">
             </div>
           </div>
         </div>
@@ -80,14 +88,6 @@
           <div class="h-20 mt-1 rounded flex justify-center items-center">
             <div class="bg-coolGray-700 relative">
               <img src="jordan-whitt-EerxztHCjM8-unsplash.jpg" class="transform translate-x-5">
-            </div>
-          </div>
-        </div>
-        <div>
-          <div>-translate-x-full</div>
-          <div class="h-20 mt-1 rounded flex justify-center items-center">
-            <div class="bg-coolGray-700 relative">
-              <img src="jordan-whitt-EerxztHCjM8-unsplash.jpg" class="transform -translate-x-full">
             </div>
           </div>
         </div>
