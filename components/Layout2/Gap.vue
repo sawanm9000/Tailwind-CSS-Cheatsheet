@@ -3,7 +3,7 @@
     <div class="prefix"><Lnk href="https://tailwindcss.com/docs/gap" class="whitespace-pre">gap-  gap-x-  gap-y-</Lnk></div>
     <div class="content grid grid-cols-2">
       <div class="mb-1.5">
-        <a href="layout/#length" class="text-blue-300 cursor-pointer select-none w-max" @mouseover="$nuxt.$emit('highlightLength', true)" @mouseleave="$nuxt.$emit('highlightLength', false)" @click="$nuxt.$emit('blinkLength')">{length}</a>
+        <a href="layout/#length" class="text-blue-300 cursor-pointer select-none w-max" @click="$nuxt.$emit('blinkLength')">{length}</a>
       </div>
 
       <div class="grid auto-cols-max auto-rows-auto">
