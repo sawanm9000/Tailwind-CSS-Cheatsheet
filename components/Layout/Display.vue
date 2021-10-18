@@ -13,32 +13,32 @@
 
       <div class="grid grid-cols-3 gap-y-2.5 gap-x-2 mb-2.5">
         <div>
-          <TwClass name="block" tooltip="display: block" class="mb-1 w-max">block</TwClass>
-          <div>
-            <div class="space-y-1">
-              <span class="block bg-emerald-700 rounded p-0.5 text-center">span</span>
-              <span class="block bg-emerald-700 rounded p-0.5 text-center">span</span>
-              <span class="block bg-emerald-700 rounded p-0.5 text-center">span</span>
-            </div>
+          <TwClass name="inline" tooltip="display: inline" class="mb-1 w-max">inline</TwClass>
+          <div class="pt-2 font-sans text-sm">
+            <p class="inline">text</p>
+            <div class="bg-emerald-700 rounded px-0.5 leading-4 inline h-8">h8</div>
+            <div class="bg-emerald-700 rounded px-0.5 leading-4 inline w-9">w9</div>
+            <div class="bg-emerald-700 rounded px-0.5 leading-4 inline w-14 h-7">w14 h7</div>
+            <div class="inline">text</div>
           </div>
         </div>
         <div>
           <TwClass name="inline-block" tooltip="display: inline-block" class="mb-1 w-max">inline-block</TwClass>
           <div class="font-sans text-sm">
             <p class="inline">text</p>
-            <div class="inline-block bg-emerald-700 rounded px-0.5 pt-2.5 text-center h-8">div</div>
-            <div class="inline-block bg-emerald-700 rounded px-0.5 pb-2 w-8">div</div>
-            <div class="inline-block bg-emerald-700 rounded px-1.5 py-1 w-9">div</div>
+            <div class="bg-emerald-700 rounded px-0.5 leading-4 inline-block h-8">h8</div>
+            <div class="bg-emerald-700 rounded px-0.5 leading-4 inline-block w-9">w9</div>
+            <div class="bg-emerald-700 rounded px-0.5 leading-4 inline-block w-14 h-7">w14 h7</div>
             <div class="inline">text</div>
           </div>
         </div>
         <div>
-          <TwClass name="inline" tooltip="display: inline" class="mb-1 w-max">inline</TwClass>
+          <TwClass name="block" tooltip="display: block" class="mb-1 w-max">block</TwClass>
           <div>
-            <div class="pt-2 font-sans text-sm">
-              text
-              <div class="inline bg-emerald-700 rounded p-1 text-center h-8">div</div>
-              <div class="inline bg-emerald-700 rounded p-1 text-center w-12">div</div>
+            <div class="space-y-1">
+              <span class="block bg-emerald-700 rounded p-0.5 text-center">span</span>
+              <span class="block bg-emerald-700 rounded p-0.5 text-center">span</span>
+              <span class="block bg-emerald-700 rounded p-0.5 text-center">span</span>
             </div>
           </div>
         </div>
@@ -99,9 +99,9 @@
           <div>
             <div class="flex gap-1">
               <div class="flex-1 text-center bg-emerald-700 py-0.5 rounded">1</div>
-              <div class="contents">
-                <div class="flex-1 text-center bg-blue-700 py-0.5 rounded">2</div>
-                <div class="flex-1 text-center bg-blue-700 py-0.5 rounded">3</div>
+              <div class="contents bg-blue-600 text-red-500">
+                <div class="flex-1 text-center py-0.5 rounded" style="background-color: inherit">2</div>
+                <div class="flex-1 text-center py-0.5 rounded" style="background-color: inherit">3</div>
               </div>
               <div class="flex-1 text-center bg-emerald-700 py-0.5 rounded">4</div>
             </div>
