@@ -18,7 +18,7 @@
           <div class="text-coolGray-400 text-sm">
             <div>Optimized for 1080p displays</div>
             <div>Tailwind CSS v2.1</div>
-            <div>Tailwind CSS Cheat Sheet is not affiliated with Tailwind Labs</div>
+            <div>Tailwind CSS Cheatsheet is not affiliated with Tailwind Labs</div>
           </div>
         </div>
       </div>
@@ -44,6 +44,7 @@ export default {
   watch: {
     $route() {
       this.drawer = false;
+      this.tooltip = false;
     }
   },
 

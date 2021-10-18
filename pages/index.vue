@@ -5,7 +5,7 @@
       <div class="flex justify-center container max-w-screen-xl sm:justify-between p-4">
         <div class="flex gap-x-2 items-center">
           <img src="icon.png" alt="Logo" style="height: 32px; width: 32px;">
-          <h1 class="text-2xl text-center font-bold">Tailwind CSS Cheat Sheet (WIP)</h1>
+          <h1 class="text-2xl text-center font-bold">Tailwind CSS Cheatsheet (WIP)</h1>
         </div>
         <div class="hidden sm:flex gap-4">
           <!-- <div>Help</div> -->
@@ -17,6 +17,7 @@
     </header>
 
     <!-- <input id="search" type="search" name="Search" placeholder="Search (Ctrl+K)" class="w-96 max-w-full px-3 py-2 m-3 bg-coolGray-600"> -->
+    <!-- use this: https://github.com/krisk/Fuse -->
 
     <div class="flex items-center max-w-full p-2">
       <div class="w-full flex justify-center">
@@ -27,7 +28,7 @@
     <footer class="p-5 text-center text-coolGray-400 text-sm w-full md:flex md:justify-between">
       <div>Optimized for 1080p displays</div>
       <div>Tailwind CSS v2.1</div>
-      <div>Tailwind CSS Cheat Sheet is not affiliated with Tailwind Labs</div>
+      <div>Tailwind CSS Cheatsheet is not affiliated with Tailwind Labs</div>
     </footer>
 
   </div>

@@ -24,10 +24,12 @@
         </div>
         <div>
           <TwClass name="inline-block" tooltip="display: inline-block" class="mb-1 w-max">inline-block</TwClass>
-          <div>
-            <div class="inline-block bg-emerald-700 rounded px-1.5 py-1 mb-2 text-center">div</div>
-            <div class="inline-block bg-emerald-700 rounded px-1.5 py-1 mb-2 text-center">div</div>
-            <div class="inline-block bg-emerald-700 rounded px-1.5 py-1 mb-2 text-center">div</div>
+          <div class="font-sans text-sm">
+            <p class="inline">text</p>
+            <div class="inline-block bg-emerald-700 rounded px-0.5 pt-2.5 text-center h-8">div</div>
+            <div class="inline-block bg-emerald-700 rounded px-0.5 pb-2 w-8">div</div>
+            <div class="inline-block bg-emerald-700 rounded px-1.5 py-1 w-9">div</div>
+            <div class="inline">text</div>
           </div>
         </div>
         <div>
@@ -35,8 +37,8 @@
           <div>
             <div class="pt-2 font-sans text-sm">
               text
-              <div class="inline bg-emerald-700 rounded p-1 text-center">div</div>
-              <div class="inline bg-emerald-700 rounded p-1 text-center">div</div>
+              <div class="inline bg-emerald-700 rounded p-1 text-center h-8">div</div>
+              <div class="inline bg-emerald-700 rounded p-1 text-center w-12">div</div>
             </div>
           </div>
         </div>
