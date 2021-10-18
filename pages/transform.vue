@@ -10,13 +10,11 @@
       <TransformOrigin class="col-start-1 3xl:col-start-3 col-span-2 row-span-7" />
       <TransformScale class="col-start-1 3xl:col-start-5 3xl:col-span-4 row-span-3 col-span-2" />
       <TransformScaleY class="col-start-1 3xl:col-start-5 3xl:col-span-4 row-span-3 col-span-2" />
-      <TransformSkewX class="col-start-1 3xl:col-start-5 col-span-2 row-span-3" />
-      <TransformSkewXN class="col-start-1 3xl:col-start-7 col-span-2 row-span-3" />
+      <TransformSkewX class="col-start-1 3xl:col-start-5 col-span-4 row-span-3" />
       <TransformRotate class="col-start-1 3xl:col-start-5 3xl:col-span-4 row-span-3 col-span-2" />
       <TransformTranslate class="col-start-1 3xl:col-start-5 3xl:col-span-4 row-span-4 col-span-2" />
-      <TransformScaleX class="col-start-2 3xl:col-start-9 col-span-1 row-span-15" />
-      <TransformSkewY class="col-start-1 3xl:col-start-10 col-span-1 row-span-9" />
-      <TransformSkewYN class="col-start-1 3xl:col-start-10 col-span-1 row-span-9" />
+      <TransformScaleX class="col-start-2 3xl:col-start-9 col-span-1 row-span-12" />
+      <TransformSkewY class="col-start-1 3xl:col-start-10 col-span-1 row-span-13" />
     </div>
 	</div>
 </template>
