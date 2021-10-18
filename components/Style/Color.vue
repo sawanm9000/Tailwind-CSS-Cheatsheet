@@ -4,18 +4,18 @@
       <div class="absolute top-0 left-0 pl-2 pt-1"><Lnk href="https://tailwindcss.com/docs/customizing-colors" class="font-sans text-sm text-coolGray-400">Color</Lnk></div>
       <div class="overflow-auto">
         <div class="grid grid-rows-1 gap-x-0.5" style="grid-template-columns: 35px repeat(5, 1fr) 3px repeat(17, 1fr) 35px; min-width: 600px">
-          <div class="grid" style="grid-template-rows: 60px repeat(10, 1fr)">
+          <div class="grid bg-gradient-to-b from-coolGray-600 to-white text-transparent bg-clip-text" style="grid-template-rows: 60px repeat(10, 1fr)">
             <div class="h-5"></div>
-            <div class="h-5 flex justify-end items-center pr-1">900</div>
-            <div class="h-5 flex justify-end items-center pr-1">800</div>
-            <div class="h-5 flex justify-end items-center pr-1">700</div>
-            <div class="h-5 flex justify-end items-center pr-1">600</div>
-            <div class="h-5 flex justify-end items-center pr-1">500</div>
-            <div class="h-5 flex justify-end items-center pr-1">400</div>
-            <div class="h-5 flex justify-end items-center pr-1">300</div>
-            <div class="h-5 flex justify-end items-center pr-1">200</div>
-            <div class="h-5 flex justify-end items-center pr-1">100</div>
-            <div class="h-5 flex justify-end items-center pr-1">50</div>
+            <div class="h-5 flex justify-end items-center pr-1 font-semibold">900</div>
+            <div class="h-5 flex justify-end items-center pr-1 font-semibold">800</div>
+            <div class="h-5 flex justify-end items-center pr-1 font-semibold">700</div>
+            <div class="h-5 flex justify-end items-center pr-1 font-semibold">600</div>
+            <div class="h-5 flex justify-end items-center pr-1 font-semibold">500</div>
+            <div class="h-5 flex justify-end items-center pr-1 font-semibold">400</div>
+            <div class="h-5 flex justify-end items-center pr-1 font-semibold">300</div>
+            <div class="h-5 flex justify-end items-center pr-1 font-semibold">200</div>
+            <div class="h-5 flex justify-end items-center pr-1 font-semibold">100</div>
+            <div class="h-5 flex justify-end items-center pr-1 font-semibold">50</div>
           </div>
           <div class="grid" style="grid-template-rows: 60px repeat(10, 1fr)">
             <div class="relative h-5 self-end">
@@ -348,18 +348,18 @@
             <TwClass name="rose-100" tooltip="" class="h-5 bg-rose-100"></TwClass>
             <TwClass name="rose-50" tooltip="" class="h-5 bg-rose-50 rounded-b"></TwClass>
           </div>
-          <div class="grid" style="grid-template-rows: 60px repeat(10, 1fr)">
+          <div class="grid bg-gradient-to-b from-coolGray-600 to-white text-transparent bg-clip-text" style="grid-template-rows: 60px repeat(10, 1fr)">
             <div class="h-5"></div>
-            <div class="h-5 flex items-center pl-1">900</div>
-            <div class="h-5 flex items-center pl-1">800</div>
-            <div class="h-5 flex items-center pl-1">700</div>
-            <div class="h-5 flex items-center pl-1">600</div>
-            <div class="h-5 flex items-center pl-1">500</div>
-            <div class="h-5 flex items-center pl-1">400</div>
-            <div class="h-5 flex items-center pl-1">300</div>
-            <div class="h-5 flex items-center pl-1">200</div>
-            <div class="h-5 flex items-center pl-1">100</div>
-            <div class="h-5 flex items-center pl-1">50</div>
+            <div class="h-5 flex items-center pl-1 font-semibold">900</div>
+            <div class="h-5 flex items-center pl-1 font-semibold">800</div>
+            <div class="h-5 flex items-center pl-1 font-semibold">700</div>
+            <div class="h-5 flex items-center pl-1 font-semibold">600</div>
+            <div class="h-5 flex items-center pl-1 font-semibold">500</div>
+            <div class="h-5 flex items-center pl-1 font-semibold">400</div>
+            <div class="h-5 flex items-center pl-1 font-semibold">300</div>
+            <div class="h-5 flex items-center pl-1 font-semibold">200</div>
+            <div class="h-5 flex items-center pl-1 font-semibold">100</div>
+            <div class="h-5 flex items-center pl-1 font-semibold">50</div>
           </div>
         </div>
       </div>
