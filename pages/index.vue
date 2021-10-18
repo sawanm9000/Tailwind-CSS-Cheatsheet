@@ -19,13 +19,17 @@
     <!-- <input id="search" type="search" name="Search" placeholder="Search (Ctrl+K)" class="w-96 max-w-full px-3 py-2 m-3 bg-coolGray-600"> -->
     <!-- use this: https://github.com/krisk/Fuse -->
 
-    <div class="flex items-center max-w-full p-2">
+    <div class="flex items-center max-w-full px-2 py-24">
       <div class="w-full flex justify-center">
         <Nav button="yes" class="overflow-hidden" />
       </div>
     </div>
 
-    <footer class="p-5 text-center text-coolGray-400 text-sm w-full md:flex md:justify-between">
+    <footer class="p-5 bg-black bg-opacity-50 text-coolGray-400 text-center text-sm w-full md:flex md:justify-between">
+      <div class="flex text-center justify-center">
+        <div>Created & maintained by <a href="https://sawanm9000.github.io" class="text-coolGray-100 pr-2">Sawan M</a>-</div>
+        <div><a href="http://paypal.me/sawanm9000" class="pl-2 text-red-600 font-medium">❤ Donate</a></div>
+      </div>
       <div>Optimized for 1080p displays</div>
       <div>Tailwind CSS v2.1</div>
       <div>Tailwind CSS Cheatsheet is not affiliated with Tailwind Labs</div>
