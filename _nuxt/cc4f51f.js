@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[27],{244:function(t,n,e){"use strict";e.r(n);var l=e(13),component=Object(l.a)({},(function(){var t=this.$createElement;return(this._self._c||t)("img",{staticClass:"w-full object-cover",attrs:{src:"icon.png"}})}),[],!1,null,null,null);n.default=component.exports;installComponents(component,{Img:e(123).default})}}]);
