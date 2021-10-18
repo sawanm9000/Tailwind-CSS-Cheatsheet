@@ -22,7 +22,7 @@
         </div>
         <div>
           <TwClass name="border-separate" tooltip="border-collapse: separate">border-separate</TwClass>
-          <table class="border-separate border border-emerald-600 h-16 mt-1 bg-coolGray-700 rounded-sm font-sans">
+          <table class="border-separate border border-lime-700 h-16 mt-1 bg-coolGray-700 rounded-sm font-sans">
             <thead>
               <tr>
                 <th class="border border-emerald-600 px-2">State</th>
@@ -62,8 +62,8 @@
           <table class="border-collapse border border-emerald-600 h-16 mt-1 bg-coolGray-700 rounded-sm font-sans table-fixed">
             <thead>
               <tr>
-                <th class="border border-emerald-600 px-2 w-1/2">Col 1</th>
-                <th class="border border-emerald-600 px-2 w-1/2">Col 2</th>
+                <th class="border border-emerald-600 px-2 w-1/2">w-1/2</th>
+                <th class="border border-emerald-600 px-2 w-1/2">w-1/2</th>
               </tr>
             </thead>
             <tbody>
