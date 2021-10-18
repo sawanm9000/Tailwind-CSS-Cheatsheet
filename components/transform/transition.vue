@@ -20,7 +20,7 @@
         <div>
           <TwClass name="transition" tooltip="transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter" class="text-coolGray-600 text-opacity-0">.</TwClass>
           <div class="h-20 mt-1 rounded flex justify-center items-center">
-            <button class="px-4 py-2 rounded bg-blue-600 font-sans text-sm transform transition-all hover:bg-red-600 hover:text-black hover:opacity-75 hover:shadow-lg hover:scale-110 hover:rotate-6 hover:translate-x-2 hover:-translate-y-2">Hover</button>
+            <button class="px-4 py-2 rounded bg-blue-600 font-sans text-sm transform transition hover:bg-red-600 hover:text-black hover:opacity-75 hover:shadow-lg hover:scale-110 hover:rotate-6 hover:translate-x-2 hover:-translate-y-2">Hover</button>
           </div>
         </div>
         <div>

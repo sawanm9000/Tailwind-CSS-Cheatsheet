@@ -4,13 +4,13 @@
     <div class="content">
       <div class="grid grid-cols-3 gap-2">
         <div>
-          <TwClass name="animate-none" tooltip="">none</TwClass>
+          <TwClass name="animate-none" tooltip="" class="w-max">none</TwClass>
           <div class="h-20 pt-3">
             <div class="w-14 h-14 mt-1 bg-coolGray-600 rounded animate-none"></div>
           </div>
         </div>
         <div>
-          <TwClass name="animate-spin" tooltip="">spin</TwClass>
+          <TwClass name="animate-spin" tooltip="" class="w-max">spin</TwClass>
           <div class="h-20 pt-3">
             <svg class="animate-spin -ml-1 mr-3 w-14 h-14 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" data-darkreader-inline-fill="" style="--darkreader-inline-fill:none;">
               <circle class="opacity-0" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke:currentColor;"></circle>
@@ -19,19 +19,19 @@
           </div>
         </div>
         <div>
-          <TwClass name="animate-ping" tooltip="">ping</TwClass>
+          <TwClass name="animate-ping" tooltip="" class="w-max">ping</TwClass>
           <div class="h-20 pt-3">
             <div class="w-6 h-6 mt-1 bg-red-600 rounded-full animate-ping"></div>
           </div>
         </div>
         <div>
-          <TwClass name="animate-pulse" tooltip="">pulse</TwClass>
+          <TwClass name="animate-pulse" tooltip="" class="w-max">pulse</TwClass>
           <div class="h-20 pt-3">
             <div class="w-14 h-14 mt-1 bg-coolGray-600 rounded animate-pulse"></div>
           </div>
         </div>
         <div>
-          <TwClass name="animate-bounce" tooltip="">bounce</TwClass>
+          <TwClass name="animate-bounce" tooltip="" class="w-max">bounce</TwClass>
           <div class="h-20 pt-3">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-14 h-14 animate-bounce text-amber-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
