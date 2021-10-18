@@ -14,7 +14,7 @@
       <TransformSkewX class="col-start-1 3xl:col-start-5 col-span-4 row-span-2" />
       <TransformSkewY class="col-start-1 3xl:col-start-5 col-span-4 row-span-2" />
       <TransformRotate class="col-start-1 3xl:col-start-5 3xl:col-span-4 row-span-4 col-span-2" />
-      <TransformTranslate class="col-start-1 3xl:col-start-9 row-span-14 col-span-2" />
+      <TransformTranslate class="col-start-1 3xl:col-start-9 row-span-11 col-span-2" />
     </div>
 	</div>
 </template>
