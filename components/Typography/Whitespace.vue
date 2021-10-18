@@ -1,7 +1,7 @@
 <template>
   <Card>
     <div class="prefix"><Lnk href="https://tailwindcss.com/docs/whitespace">whitespace-</Lnk></div>
-    <div class="content flex gap-x-1.5">
+    <div class="content grid 3xl:grid-cols-5 grid-cols-3 gap-2">
       <div>
         <TwClass name="whitespace-normal" tooltip="white-space: normal" class="mb-1 w-max">normal</TwClass>
         <div class="overflow-hidden h-28 w-36 bg-coolGray-700 px-0.5 font-sans text-xs whitespace-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque asperiores ex porro dignissimos dolores eaque natus, consequuntur nulla saepe aspernatur in ipsa. Adipisci illo sapiente temporibus minima enim rem aspernatur.</div>
