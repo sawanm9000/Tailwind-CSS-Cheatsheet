@@ -51,7 +51,7 @@
       </div>
       <div>
         <TwClass name="content-around" tooltip="align-content: space-around" class="mb-1 w-max">around</TwClass>
-        <div class="h-20 bg-coolGray-700 flex flex-wrap p-0.5 gap-0.5 content-around">
+        <div class="h-20 bg-coolGray-700 flex flex-wrap px-0.5 gap-0.5 content-around">
           <div class="bg-emerald-600 rounded w-7 h-5 flex justify-center items-center font-sans text-sm">1</div>
           <div class="bg-emerald-600 rounded w-7 h-5 flex justify-center items-center font-sans text-sm">2</div>
           <div class="bg-emerald-600 rounded w-7 h-5 flex justify-center items-center font-sans text-sm">3</div>
@@ -62,7 +62,7 @@
       </div>
       <div>
         <TwClass name="content-evenly" tooltip="align-content: space-evenly" class="mb-1 w-max">evenly</TwClass>
-        <div class="h-20 bg-coolGray-700 flex flex-wrap p-0.5 gap-0.5 content-evenly">
+        <div class="h-20 bg-coolGray-700 flex flex-wrap px-0.5 gap-0.5 content-evenly">
           <div class="bg-emerald-600 rounded w-7 h-5 flex justify-center items-center font-sans text-sm">1</div>
           <div class="bg-emerald-600 rounded w-7 h-5 flex justify-center items-center font-sans text-sm">2</div>
           <div class="bg-emerald-600 rounded w-7 h-5 flex justify-center items-center font-sans text-sm">3</div>
