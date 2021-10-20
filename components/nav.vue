@@ -49,6 +49,8 @@ export default {
         else {
           this.$router.replace(path);
         }
+      } else {
+        this.$nuxt.$emit('showDrawer');
       }
     },
 
