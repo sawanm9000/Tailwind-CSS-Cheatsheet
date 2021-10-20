@@ -1,9 +1,9 @@
 <template>
   <Card>
-    <div class="pt-1 pl-2">
-      <Lnk href="https://tailwindcss.com/docs/transform" class="text-gray-400 font-sans">Transform</Lnk>
-    </div>
     <div class="content">
+      <div class="title">
+        <Lnk href="https://tailwindcss.com/docs/transform" class="text-gray-400 font-sans">Transform</Lnk>
+      </div>
       <div class="grid grid-cols-3 gap-2">
         <div>
           <TwClass name="transform" tooltip="" class="w-max">transform</TwClass>
