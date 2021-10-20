@@ -73,7 +73,7 @@
         </div>
         <div>
           <TwClass name="place-content-evenly" tooltip="place-content: space-evenly" class="mb-1 w-max">evenly</TwClass>
-          <div class="h-20 bg-coolGray-700 grid grid-cols-3 gap-0.5 px-0.5 place-content-evenly">
+          <div class="h-20 bg-coolGray-700 grid grid-cols-3 gap-0.5 p-0.5 place-content-evenly">
             <div class="bg-emerald-600 font-sans text-sm flex justify-center items-center h-5 rounded">1</div>
             <div class="bg-emerald-600 font-sans text-sm flex justify-center items-center h-5 rounded">2</div>
             <div class="bg-emerald-600 font-sans text-sm flex justify-center items-center h-5 rounded">3</div>

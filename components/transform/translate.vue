@@ -1,6 +1,6 @@
 <template>
   <Card>
-    <div class="prefix whitespace-pre"><Lnk href="https://tailwindcss.com/docs/translate"> translate-x-   translate-y-<br>-translate-x-  -translate-y-</Lnk></div>
+    <div class="prefix whitespace-pre"><Lnk href="https://tailwindcss.com/docs/translate">translate-x-   translate-y-<br>-translate-x-  -translate-y-</Lnk></div>
     <div class="content">
       <div class="mb-3">
         <a href="layout/#length" class="text-blue-300 cursor-pointer select-none w-max" @click="$nuxt.$emit('blinkLength')">{length}</a>

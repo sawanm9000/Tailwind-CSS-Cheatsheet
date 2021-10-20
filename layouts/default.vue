@@ -1,6 +1,8 @@
 <template>
   <div class="min-h-full h-full overflow-x-hidden relative">
     <Nuxt />
+
+    <!-- SIDEBAR -->
     <div class="fixed md:absolute top-0 left-0 z-50 bg-coolGray-900 ring-2 ring-black ring-offset-0 ring-opacity-50 h-screen overflow-y-scroll md:overflow-hidden max-w-full" :class="drawer ? 'w-max' : 'w-1.5 opacity-0'" @mouseover="toggleDrawer(true)" @mouseleave="toggleDrawer(false)">
       <div class="h-full sm:w-max flex flex-col justify-between">
         <div>
@@ -16,8 +18,11 @@
             <Lnk href="https://github.com/sawanm9000/Tailwind-CSS-Cheatsheet">GitHub</Lnk>
           </div>
           <div class="text-coolGray-400 text-sm">
-            <div>Optimized for 1080p displays</div>
-            <div>Tailwind CSS v2.1</div>
+            <div>Tailwind CSS v2.2</div>
+            <div class="text-left">
+              <div class="inline">Created & maintained by <a href="https://sawanm9000.github.io" class="text-coolGray-100">Sawan M</a> - </div>
+              <div id="donate" class="inline"><span class="w-max whitespace-nowrap"><a href="http://paypal.me/sawanm9000" class="text-red-600 font-medium">❤ Donate</a></span></div>
+            </div>
             <div>Tailwind CSS Cheatsheet is not affiliated with Tailwind Labs</div>
           </div>
         </div>

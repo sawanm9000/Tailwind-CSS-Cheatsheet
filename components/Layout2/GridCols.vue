@@ -4,12 +4,12 @@
     <div class="content grid grid-cols-2 gap-x-2">
       <div>
         <div class="mb-1">1<span class="font-sans text-sm">,</span> 2<span class="font-sans text-sm">,</span> 3<span class="font-sans text-sm">...</span> 12</div>
-        <div class="bg-coolGray-400 grid grid-cols-5 grid-rows-1 h-16 p-px gap-px w-24">
-          <div class="bg-coolGray-800 row-start-1 col-start-1"></div>
-          <div class="bg-coolGray-800 row-start-1 col-start-2"></div>
-          <div class="bg-coolGray-800 row-start-1 col-start-3"></div>
-          <div class="bg-coolGray-800 row-start-1 col-start-4"></div>
-          <div class="bg-coolGray-800 row-start-1 col-start-5"></div>
+        <div class="grid grid-cols-5 grid-rows-1 h-16 w-24 border border-coolGray-400 divide-x divide-coolGray-400">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
       </div>
       <div>
