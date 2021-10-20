@@ -1,5 +1,5 @@
 <template>
-  <div class="nav flex flex-col w-max max-w-full" :class="button === 'yes' ? 'button gap-y-2' : 'divide-y divide-white divide-opacity-20'">
+  <div class="nav flex flex-col w-max max-w-full" :class="type === 'button' ? 'button gap-y-2' : type === 'flat' ? 'divide-y divide-white divide-opacity-20' : ''">
     <div class="nav-button cursor-pointer" @click="goTo('layout')">
       <div>1. Layout</div>
       <div>Box size, positioning, margin, overflow, and over scroll</div>
@@ -34,9 +34,9 @@
 <script>
 export default {
   props: {
-    button: {
+    type: {
       type: String,
-      default: 'yes'
+      default: 'button'
     }
   },
 

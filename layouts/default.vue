@@ -8,7 +8,7 @@
             <img src="icon.png" alt="Logo" style="height: 32px; width: 32px;">
             <div class="text-xl font-semibold">Tailwind CSS Cheatsheet (WIP)</div>
           </NuxtLink>
-          <Nav button="no" />
+          <Nav type="flat" />
         </div>
         <div class="p-3 flex flex-col">
           <div class="mb-4 flex flex-col gap-2">
