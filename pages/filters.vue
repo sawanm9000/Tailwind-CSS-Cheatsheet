@@ -1,5 +1,6 @@
 <template>
 	<div class="flex flex-col justify-center items-stretch min-h-screen">
+    <AppBar class="block md:hidden" />
     <div class="self-stretch flex flex-col 3xl:flex-row items-center p-1.5 gap-1.5 3xl:container">
       <div class="flex-1 flex-grow flex flex-col gap-y-1.5">
         <FiltersFilter />

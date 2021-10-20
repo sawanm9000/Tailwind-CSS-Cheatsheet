@@ -1,20 +1,7 @@
 <template>
   <div class="min-h-full flex flex-col justify-between items-center">
 
-    <header class="w-full flex justify-center">
-      <div class="flex justify-center container sm:justify-between p-4">
-        <div class="flex gap-x-2 items-center">
-          <img src="icon.png" alt="Logo" style="height: 32px; width: 32px;">
-          <h1 class="text-2xl text-center font-bold">Tailwind CSS Cheatsheet (WIP)</h1>
-        </div>
-        <div class="hidden sm:flex gap-4">
-          <!-- <div>Help</div> -->
-          <Lnk href="https://tailwindcss.com/docs">Documentation</Lnk>
-          <Lnk href="https://github.com/sawanm9000/Tailwind-CSS-Cheatsheet">GitHub</Lnk>
-          <!-- <div class="separator"></div> -->
-        </div>
-      </div>
-    </header>
+    <AppBar :hide-hamburger-btn="true" />
 
     <!-- <input id="search" type="search" name="Search" placeholder="Search (Ctrl+K)" class="w-96 max-w-full px-3 py-2 m-3 bg-coolGray-600"> -->
     <!-- use this: https://github.com/krisk/Fuse -->

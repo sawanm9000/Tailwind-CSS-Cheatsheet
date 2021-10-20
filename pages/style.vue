@@ -1,5 +1,6 @@
 <template>
 	<div class="flex flex-col justify-center items-center min-h-screen">
+    <AppBar class="block md:hidden" />
     <div class="p-1.5 grid grid-cols-6 grid-rows-20 grid-flow-row-dense gap-1.5 3xl:container">
       <StyleRounded    class="col-start-1 col-span-6 row-span-13 3xl:col-start-1 3xl:col-span-1" />
       <StyleBorder     class="col-start-1 col-span-6 row-span-12 3xl:col-start-2 3xl:col-span-1" />

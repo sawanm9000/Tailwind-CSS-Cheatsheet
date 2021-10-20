@@ -1,5 +1,7 @@
 <template>
 	<div class="grid justify-center items-center min-h-screen">
+    <AppBar class="block md:hidden" />
+
     <div class="p-1.5 grid grid-cols-12 grid-flow-row-dense gap-1.5 3xl:container">
       <TypographyText        class="col-start-1 col-span-12 3xl:row-start-1 row-span-4 3xl:col-span-8" />
       <TypographyLeading     class="col-start-1 col-span-12 3xl:row-start-5 row-span-4 3xl:col-span-7" />

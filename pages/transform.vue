@@ -1,5 +1,6 @@
 <template>
 	<div class="flex flex-col justify-center items-center min-h-screen">
+    <AppBar class="block md:hidden" />
     <div class="p-1.5 grid grid-cols-2 3xl:grid-cols-10 grid-rows-16 grid-flow-row-dense gap-1.5 3xl:container w-full">
       <TransformTransition class="col-start-1 3xl:col-start-1 col-span-2 row-span-5" />
       <TransformDuration class="col-start-1 3xl:col-start-1 col-span-1 row-span-8" />

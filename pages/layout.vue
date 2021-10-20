@@ -1,5 +1,7 @@
 <template>
 	<div class="flex flex-col justify-center min-h-screen">
+    <AppBar class="block md:hidden" />
+
 		<div class="w-screen fixed top-0 h-16 max-h-16 bg-blue-500 overflow-y-hidden overflow-x-auto 3xl:overflow-x-hidden text-sm hidden md:block 3xl:hidden whitespace-pre z-50 isolate">
 			<div class="flex h-full pl-3 items-center">All sizes (default)</div>
 			<div class="sm-breakpoint absolute bottom-0 bg-blue-600 h-14 pl-3 rounded-tl-xl"><div class="flex h-full items-center"><span class="font-mono">sm: </span>&#8805; 640px</div></div>
