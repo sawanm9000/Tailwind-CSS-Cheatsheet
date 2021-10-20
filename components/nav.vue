@@ -1,33 +1,33 @@
 <template>
   <div class="nav flex flex-col w-max max-w-full" :class="button === 'yes' ? 'button gap-y-2' : 'divide-y divide-white divide-opacity-20'">
-    <NuxtLink to="/layout" class="nav-button">
+    <div class="nav-button cursor-pointer" @click="goTo('layout')">
       <div>1. Layout</div>
       <div>Box size, positioning, margin, overflow, and over scroll</div>
-    </NuxtLink>
-    <NuxtLink to="/layout2" class="nav-button">
+    </div>
+    <div class="nav-button cursor-pointer" @click="goTo('layout2')">
       <div>2. Layout 2</div>
       <div>Flexbox and CSS Grid</div>
-    </NuxtLink>
-    <NuxtLink to="/typography" class="nav-button">
+    </div>
+    <div class="nav-button cursor-pointer" @click="goTo('typography')">
         <div>3. Typography</div>
         <div>Text, font, leading, whitespace</div>
-    </NuxtLink>
-    <NuxtLink to="/style" class="nav-button">
+    </div>
+    <div class="nav-button cursor-pointer" @click="goTo('style')">
       <div>4. Style</div>
       <div>Color, background color, border, object, shadow</div>
-    </NuxtLink>
-    <NuxtLink to="/filters" class="nav-button">
+    </div>
+    <div class="nav-button cursor-pointer" @click="goTo('filters')">
       <div>5. Filters</div>
       <div>Filters and color blend</div>
-    </NuxtLink>
-    <NuxtLink to="/transform" class="nav-button">
+    </div>
+    <div class="nav-button cursor-pointer" @click="goTo('transform')">
       <div>6. Transform</div>
       <div>Transform, animation and transition</div>
-    </NuxtLink>
-    <NuxtLink to="/interactivity" class="nav-button">
+    </div>
+    <div class="nav-button cursor-pointer" @click="goTo('interactivity')">
       <div>7. Interactivity</div>
       <div>Forms, pseudo classes and accessibility</div>
-    </NuxtLink>
+    </div>
   </div>
 </template>
 
@@ -37,6 +37,19 @@ export default {
     button: {
       type: String,
       default: 'yes'
+    }
+  },
+
+  methods: {
+    goTo(path) {
+      if (this.$route.fullPath !== '/' + path) {
+        if (this.$route.fullPath === '/') {
+          this.$router.push(path);
+        }
+        else {
+          this.$router.replace(path);
+        }
+      }
     }
   }
 }
