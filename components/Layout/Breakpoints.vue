@@ -1,9 +1,7 @@
 <template>
   <Card>
-    <div class="text-base font-sans text-gray-400 pl-2">
-      <Lnk href="https://tailwindcss.com/docs/breakpoints">Breakpoints</Lnk>
-    </div>
     <div class="content">
+      <Lnk href="https://tailwindcss.com/docs/breakpoints" class="title">Breakpoints</Lnk>
       <div class="grid grid-cols-3 gap-2">
         <div class="content-row">
           <div class="w-max opacity-0">.</div>

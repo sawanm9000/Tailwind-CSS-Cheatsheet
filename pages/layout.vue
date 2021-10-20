@@ -38,8 +38,8 @@
           <LayoutMinH           class="col-start-1 row-start-18 col-span-6  lg:col-span-3 3xl:col-span-1       3xl:row-start-14 row-span-3" />
           <LayoutMaxH           class="col-start-7 row-start-18 col-span-6  lg:col-span-3 2xl:col-span-1 3xl:col-start-2  3xl:row-start-14 row-span-3" />
           <LayoutContainer      class="col-start-1 col-span-6  lg:col-span-3 3xl:col-span-1 3xl:col-start-3  3xl:row-start-14 row-span-3 3xl:row-span-2" />
-          <LayoutMmx            class="col-start-1 col-span-12 lg:col-span-6 3xl:col-span-2 3xl:col-start-1  3xl:row-start-17 row-span-2" />
           <LayoutBreakpoints class="md:hidden col-start-1 col-span-12 row-span-4" />
+          <LayoutMmx            class="col-start-1 col-span-12 lg:col-span-6 3xl:col-span-2 3xl:col-start-1  3xl:row-start-17 row-span-2" />
           <LayoutBox            class="col-start-7 col-span-6  lg:col-span-3 3xl:col-span-1 3xl:col-start-3  3xl:row-start-16 row-span-3" />
           <LayoutPosition       class="col-start-1 col-span-12 lg:col-span-6 3xl:col-span-2 3xl:col-start-4 3xl:row-start-5  row-span-5" />
           <LayoutDisplay        class="col-start-1 col-span-12 lg:col-span-6 3xl:col-span-2 3xl:col-start-4 3xl:row-start-10 row-span-9" />
