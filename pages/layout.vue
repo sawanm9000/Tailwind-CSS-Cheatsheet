@@ -28,7 +28,7 @@
       </div>
     </div>
 
-    <div class="flex-grow flex justify-center items-center">
+    <div class="flex-grow flex justify-center items-center md:pt-16 3xl:pt-0">
       <div class="grid justify-center items-center z-10 isolate">
         <div class="p-1.5 grid grid-cols-12 grid-flow-row-dense gap-1.5 3xl:container">
           <LayoutLength id="length" class="col-span-12 lg:col-span-6 3xl:col-span-3     col-start-1      row-start-1  row-span-4 ring-red-500" :class="lengthRing ? 'ring-2' : ''" />
