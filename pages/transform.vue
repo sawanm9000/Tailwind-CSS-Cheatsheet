@@ -1,5 +1,5 @@
 <template>
-	<div class="flex justify-center items-center min-h-screen">
+	<div class="flex flex-col justify-center items-center min-h-screen">
     <div class="p-1.5 grid grid-cols-2 3xl:grid-cols-10 grid-rows-16 grid-flow-row-dense gap-1.5 3xl:container w-full">
       <TransformTransition class="col-start-1 3xl:col-start-1 col-span-2 row-span-5" />
       <TransformDuration class="col-start-1 3xl:col-start-1 col-span-1 row-span-8" />
@@ -16,6 +16,7 @@
       <TransformRotate class="col-start-1 3xl:col-start-5 3xl:col-span-4 row-span-4 col-span-2" />
       <TransformTranslate class="col-start-1 3xl:col-start-9 row-span-11 col-span-2" />
     </div>
+    <Footer class="3xl:hidden" :in-drawer="false" />
 	</div>
 </template>
 

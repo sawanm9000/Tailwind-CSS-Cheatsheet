@@ -55,6 +55,8 @@
         </div>
       </div>
     </div>
+
+    <Footer class="3xl:hidden" :in-drawer="false" />
 	</div>
 </template>
 

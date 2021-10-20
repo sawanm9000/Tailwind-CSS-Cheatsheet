@@ -18,6 +18,7 @@
 
       <TypographyLineClamp   class="col-start-1 col-span-12 3xl:col-start-3 3xl:row-start-15 row-span-4 3xl:col-span-4" />
     </div>
+    <Footer class="3xl:hidden" :in-drawer="false" />
 	</div>
 </template>
 

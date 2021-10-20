@@ -1,7 +1,7 @@
 <template>
-	<div class="grid justify-center items-center min-h-screen">
+	<div class="flex flex-col justify-center items-center min-h-screen">
 	<!-- <div class="p-1.5 grid grid-cols-12 grid-rows-20 grid-flow-row-dense gap-1.5 min-h-screen"> -->
-    <div class="p-1.5 grid grid-cols-12 grid-flow-row-dense gap-1.5 3xl:container">
+    <div class="p-1.5 grid grid-cols-12 grid-flow-row-dense gap-1.5 container">
       <Layout2Flex         class="col-start-1 col-span-12 3xl:col-start-1  3xl:col-span-2 row-span-14 z-50" />
       <Layout2Order        class="col-start-1 col-span-12 3xl:col-start-1  3xl:col-span-2 row-span-2" />
       <Layout2Gap          class="col-start-1 col-span-12 3xl:col-start-1  3xl:col-span-2 row-span-3" />
@@ -28,6 +28,7 @@
       <Layout2PlaceItems   class="col-start-1 col-span-12 3xl:col-start-11 3xl:col-span-2 row-span-5" />
       <Layout2PlaceSelf    class="col-start-1 col-span-12 3xl:col-start-11 3xl:col-span-2 row-span-5" />
     </div>
+    <Footer class="3xl:hidden w-full" :in-drawer="false" />
 	</div>
 </template>
 
