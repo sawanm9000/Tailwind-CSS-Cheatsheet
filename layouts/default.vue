@@ -6,7 +6,7 @@
     <div class="fixed md:absolute top-0 left-0 z-50 bg-coolGray-900 ring-2 ring-black ring-offset-0 ring-opacity-50 h-screen overflow-y-scroll md:overflow-hidden max-w-full" :class="drawer ? 'w-max' : 'w-1.5 opacity-0'" @mouseover="toggleDrawer(true)" @mouseleave="toggleDrawer(false)">
       <div class="h-full sm:w-max flex flex-col justify-between">
         <div>
-          <NuxtLink to="/" class="flex gap-x-2 justify-center py-4">
+          <NuxtLink to="/" class="flex gap-x-2 justify-center py-4 text-gray-200 hover:text-white">
             <img src="icon.png" alt="Logo" style="height: 32px; width: 32px;">
             <div class="text-xl font-semibold">Tailwind CSS Cheatsheet (WIP)</div>
           </NuxtLink>

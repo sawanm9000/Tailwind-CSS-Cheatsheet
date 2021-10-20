@@ -2,7 +2,7 @@
   <Card>
     <div class="content">
       <div class="flex justify-between">
-        <Lnk href="https://tailwindcss.com/docs/display" class="font-sans text-sm text-coolGray-400 mb-2">Display</Lnk>
+        <div class="title"><Lnk href="https://tailwindcss.com/docs/display">Display</Lnk></div>
         <Lnk href="https://tailwindcss.com/docs/display" class="flex">
           <div class="font-sans text-sm pr-1">More</div>
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -119,7 +119,7 @@
           </div>
         </div>
       </div>
-      <div class="mb-1.5">
+      <div class="title">
         <Lnk href="https://tailwindcss.com/docs/visibility" class="font-sans text-sm text-coolGray-400">Visibility</Lnk>
       </div>
       <div class="grid grid-cols-3 gap-2">

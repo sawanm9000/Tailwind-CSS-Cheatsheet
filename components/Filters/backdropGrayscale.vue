@@ -1,7 +1,7 @@
 <template>
   <Card class="card-bg-img ring-1 ring-gray-600">
-    <div><Lnk href="https://tailwindcss.com/docs/backdrop-grayscale" class="text-gray-400 font-sans text-base pl-2">Backdrop Grayscale</Lnk></div>
     <div class="content">
+      <div class="title"><Lnk href="https://tailwindcss.com/docs/backdrop-grayscale">Backdrop Grayscale</Lnk></div>
       <div class="flex gap-2">
         <div class="flex-1">
           <TwClass name="backdrop-grayscale-0" tooltip="--tw-backdrop-grayscale: grayscale(0)" class="w-max backdrop-filter backdrop-blur-sm backdrop-brightness-50 rounded px-1">backdrop-grayscale-0</TwClass>

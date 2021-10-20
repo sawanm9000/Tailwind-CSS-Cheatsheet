@@ -1,7 +1,7 @@
 <template>
   <Card class="card-bg-img ring-1 ring-gray-600">
-    <div><Lnk href="https://tailwindcss.com/docs/backdrop-sepia" class="text-gray-400 font-sans text-base pl-2">Backdrop Sepia</Lnk></div>
     <div class="content">
+      <div class="title"><Lnk href="https://tailwindcss.com/docs/backdrop-sepia">Backdrop Sepia</Lnk></div>
       <div class="flex gap-2">
         <div class="flex-1">
           <TwClass name="backdrop-sepia-0" tooltip="--tw-backdrop-sepia: sepia(0)" class="w-max backdrop-filter backdrop-brightness-50 backdrop-blur-sm rounded px-1">backdrop-sepia-0</TwClass>

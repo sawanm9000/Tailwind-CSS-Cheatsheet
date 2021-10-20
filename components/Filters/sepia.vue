@@ -1,7 +1,7 @@
 <template>
   <Card>
-    <div><Lnk href="https://tailwindcss.com/docs/sepia" class="text-gray-400 font-sans text-base pl-2">Sepia</Lnk></div>
     <div class="content">
+      <div class="title"><Lnk href="https://tailwindcss.com/docs/sepia">Sepia</Lnk></div>
       <div class="flex gap-2">
         <div class="flex-1">
           <TwClass name="sepia-0" tooltip="--tw-sepia: sepia(0)" class="w-max">sepia-0</TwClass>

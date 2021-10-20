@@ -1,8 +1,8 @@
 <template>
   <Card>
     <div class="content">
-      <div class="mb-2">
-        <Lnk href="https://tailwindcss.com/docs/position" class="font-sans text-sm text-coolGray-400">Position</Lnk>
+      <div class="title">
+        <Lnk href="https://tailwindcss.com/docs/position">Position</Lnk>
       </div>
       <div class="grid grid-cols-3 gap-2 mb-3">
         <div>

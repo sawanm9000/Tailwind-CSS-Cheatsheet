@@ -49,39 +49,39 @@
       <div class="grid grid-cols-3 gap-y-3 justify-items-center">
         <div>
           <div>-tl-xl</div>
-          <div class="w-10 h-10 mt-1 bg-blue-700 rounded-tl-xl"></div>
+          <div class="w-10 h-10 mt-1 bg-lightBlue-600 rounded-tl-xl"></div>
         </div>
         <div>
           <div>-t-xl</div>
-          <div class="w-10 h-10 mt-1 bg-blue-700 rounded-t-xl"></div>
+          <div class="w-10 h-10 mt-1 bg-lightBlue-600 rounded-t-xl"></div>
         </div>
         <div>
           <div>-tr-xl</div>
-          <div class="w-10 h-10 mt-1 bg-blue-700 rounded-tr-xl"></div>
+          <div class="w-10 h-10 mt-1 bg-lightBlue-600 rounded-tr-xl"></div>
         </div>
         <div>
           <div>-l-xl</div>
-          <div class="w-10 h-10 mt-1 bg-blue-700 rounded-l-xl"></div>
+          <div class="w-10 h-10 mt-1 bg-lightBlue-600 rounded-l-xl"></div>
         </div>
         <div>
           <div>-xl</div>
-          <div class="w-10 h-10 mt-1 bg-blue-700 rounded-xl"></div>
+          <div class="w-10 h-10 mt-1 bg-lightBlue-600 rounded-xl"></div>
         </div>
         <div>
           <div>-r-xl</div>
-          <div class="w-10 h-10 mt-1 bg-blue-700 rounded-r-xl"></div>
+          <div class="w-10 h-10 mt-1 bg-lightBlue-600 rounded-r-xl"></div>
         </div>
         <div>
           <div>-bl-xl</div>
-          <div class="w-10 h-10 mt-1 bg-blue-700 rounded-bl-xl"></div>
+          <div class="w-10 h-10 mt-1 bg-lightBlue-600 rounded-bl-xl"></div>
         </div>
         <div>
           <div>-b-xl</div>
-          <div class="w-10 h-10 mt-1 bg-blue-700 rounded-b-xl"></div>
+          <div class="w-10 h-10 mt-1 bg-lightBlue-600 rounded-b-xl"></div>
         </div>
         <div>
           <div>-br-xl</div>
-          <div class="w-10 h-10 mt-1 bg-blue-700 rounded-br-xl"></div>
+          <div class="w-10 h-10 mt-1 bg-lightBlue-600 rounded-br-xl"></div>
         </div>
       </div>
     </div>

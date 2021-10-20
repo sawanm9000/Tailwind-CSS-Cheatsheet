@@ -1,7 +1,7 @@
 <template>
   <Card>
     <div class="content">
-      <div><Lnk href="https://tailwindcss.com/docs/border-collapse" class="font-sans text-sm text-coolGray-400">Table border</Lnk></div>
+      <div class="title"><Lnk href="https://tailwindcss.com/docs/border-collapse">Table border</Lnk></div>
       <div class="grid grid-cols-2 gap-x-2 mb-3 mt-1">
         <div>
           <TwClass name="border-collapse" tooltip="border-collapse: collapse">border-collapse</TwClass>
@@ -38,7 +38,7 @@
           </table>
         </div>
       </div>
-      <div><Lnk href="https://tailwindcss.com/docs/table-layout" class="font-sans text-sm text-coolGray-400">Table layout</Lnk></div>
+      <div class="title"><Lnk href="https://tailwindcss.com/docs/table-layout">Table layout</Lnk></div>
       <div class="grid grid-cols-2 gap-x-2 mt-1">
         <div>
           <TwClass name="table-auto" tooltip="table-layout: auto">table-auto</TwClass>

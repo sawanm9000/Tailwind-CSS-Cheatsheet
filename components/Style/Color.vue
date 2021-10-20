@@ -1,7 +1,7 @@
 <template>
   <Card>
     <div class="content relative">
-      <div class="absolute top-0 left-0 pl-2 pt-1"><Lnk href="https://tailwindcss.com/docs/customizing-colors" class="font-sans text-sm text-coolGray-400">Color</Lnk></div>
+      <div class="title h-0 absolute top-0 left-0"><Lnk href="https://tailwindcss.com/docs/customizing-colors">Color</Lnk></div>
       <div class="overflow-auto">
         <div class="grid grid-rows-1 gap-x-0.5" style="grid-template-columns: 35px repeat(5, 1fr) 3px repeat(17, 1fr) 35px; min-width: 600px">
           <div class="grid bg-gradient-to-b from-coolGray-600 to-white text-transparent bg-clip-text" style="grid-template-rows: 60px repeat(10, 1fr)">

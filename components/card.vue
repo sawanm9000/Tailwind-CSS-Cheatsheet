@@ -17,6 +17,15 @@
 
 <style lang="scss" scoped>
 .card {
+  .title {
+    @apply w-max mb-2 font-sans text-sm relative text-coolGray-400 hover:text-coolGray-200;
+  }
+
+  .title a::after {
+    content: url('~assets/more.svg'); width: 1.25rem; height: 1.25rem;
+    @apply opacity-0 absolute text-lg font-sans -right-6 -top-px pt-0 font-bold text-white;
+  }
+
 	.prefix {
 		@apply bg-coolGray-600 rounded-tl-md rounded-br-md w-max px-1.5 text-sm font-mono whitespace-pre relative;
 
@@ -33,6 +42,10 @@
       }
     }
 	}
+
+  .title a:hover::after {
+    @apply opacity-100;
+  }
 
 	.content {
 		@apply p-2 font-mono text-xs;

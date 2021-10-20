@@ -1,8 +1,8 @@
 <template>
   <Card>
     <div class="content">
-      <div class="mb-3">
-        <Lnk href="https://tailwindcss.com/docs/isolation" class="font-sans text-sm text-coolGray-400 mb-2">Isolation</Lnk>
+      <div class="title mb-3">
+        <Lnk href="https://tailwindcss.com/docs/isolation">Isolation</Lnk>
       </div>
       <div class="mb-1">
         <TwClass name="isolate" tooltip="isolation: isolate">isolate</TwClass>
