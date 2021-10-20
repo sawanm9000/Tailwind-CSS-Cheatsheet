@@ -25,16 +25,7 @@
       </div>
     </div>
 
-    <footer class="p-5 bg-black bg-opacity-50 text-coolGray-400 text-center text-sm w-full md:flex md:justify-center">
-      <div class="container flex gap-x-3 justify-center md:justify-between text-center">
-        <div class="text-left">
-          <div class="inline">Created & maintained by <a href="https://sawanm9000.github.io" class="text-coolGray-100">Sawan M</a> - </div>
-          <div id="donate" class="inline"><span class="w-max whitespace-nowrap"><a href="http://paypal.me/sawanm9000" class="text-red-600 font-medium">❤ Donate</a></span></div>
-        </div>
-        <div>Tailwind CSS v2.2</div>
-        <div class="text-right">Tailwind CSS Cheatsheet is not affiliated with Tailwind Labs</div>
-      </div>
-    </footer>
+    <Footer :in-drawer="false" />
 
   </div>
 </template>

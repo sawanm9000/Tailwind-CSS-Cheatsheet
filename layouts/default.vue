@@ -17,14 +17,18 @@
             <Lnk href="https://tailwindcss.com/docs">Documentation</Lnk>
             <Lnk href="https://github.com/sawanm9000/Tailwind-CSS-Cheatsheet">GitHub</Lnk>
           </div>
-          <div class="text-coolGray-400 text-sm">
+
+          <!-- <div class="text-coolGray-400 text-sm">
             <div>Tailwind CSS v2.2</div>
             <div class="text-left">
               <div class="inline">Created & maintained by <a href="https://sawanm9000.github.io" class="text-coolGray-100">Sawan M</a> - </div>
               <div id="donate" class="inline"><span class="w-max whitespace-nowrap"><a href="http://paypal.me/sawanm9000" class="text-red-600 font-medium">❤ Donate</a></span></div>
             </div>
             <div>Tailwind CSS Cheatsheet is not affiliated with Tailwind Labs</div>
-          </div>
+          </div> -->
+
+          <Footer :in-drawer="true" />
+
         </div>
       </div>
     </div>

@@ -120,7 +120,7 @@
         </div>
       </div>
       <div class="title">
-        <Lnk href="https://tailwindcss.com/docs/visibility" class="font-sans text-sm text-coolGray-400">Visibility</Lnk>
+        <Lnk href="https://tailwindcss.com/docs/visibility">Visibility</Lnk>
       </div>
       <div class="grid grid-cols-3 gap-2">
         <div>
