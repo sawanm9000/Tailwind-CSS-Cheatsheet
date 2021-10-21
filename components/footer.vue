@@ -1,6 +1,6 @@
 <template>
   <footer class="text-coolGray-400 text-center text-sm w-full md:flex md:justify-center" :class="inDrawer ? '' : 'p-5 bg-black bg-opacity-50'">
-    <div class="mb-4 md:hidden text-coolGray-100">
+    <div class="mb-4 text-coolGray-100" :class="inDrawer === true ? 'hidden' : 'block md:hidden'">
       <span class="mr-8"><a href="https://tailwindcss.com/docs">Documentation</a></span>
       <a href="https://github.com/sawanm9000/Tailwind-CSS-Cheatsheet">GitHub</a>
     </div>

@@ -1,6 +1,6 @@
 <template>
   <header class="w-full flex justify-center">
-    <div class="flex justify-between w-full">
+    <div class="flex justify-between container">
 
       <div class="relative flex-grow md:flex-grow-0 flex justify-center pt-4 px4 pb-3">
         <!-- <div class="absolute top-0 left-0 h-4 flex justify-center md:hidden pt-6 px-6 pb-10 cursor-pointer hover:bg-coolGray-800" :class="hideHamburgerBtn === true ? 'hidden' : ''" @click="$nuxt.$emit('showDrawer', true)">
