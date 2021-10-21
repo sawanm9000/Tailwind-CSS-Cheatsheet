@@ -3,7 +3,7 @@
     <Nuxt />
 
     <!-- DRAWER -->
-    <div class="fixed md:absolute top-0 left-0 z-50 bg-coolGray-900 ring-2 ring-black ring-offset-0 ring-opacity-50 h-screen overflow-y-scroll md:overflow-hidden max-w-full transition-all duration-100 ease-out" :class="drawer ? 'w-screen sm:w-96' : 'w-1.5 opacity-0'" @mouseover="toggleDrawer(true)" @mouseleave="toggleDrawer(false)">
+    <div class="fixed md:absolute top-0 left-0 z-50 bg-coolGray-900 ring-2 ring-black ring-offset-0 ring-opacity-50 h-screen overflow-y-scroll md:overflow-hidden max-w-full transition-all duration-100 ease-out" :class="drawer ? 'w-96' : 'w-1.5 opacity-0'" @mouseover="toggleDrawer(true)" @mouseleave="toggleDrawer(false)">
       <div class="h-full w-screen sm:w-96 flex flex-col justify-between">
         <div class="mb-4">
           <NuxtLink to="/" class="flex gap-x-2 px-3 py-4 text-gray-200 hover:text-white">
@@ -13,7 +13,7 @@
           <Nav type="flat" />
         </div>
         <div class="p-3 flex flex-col">
-          <div class="mb-4 flex flex-col gap-2">
+          <div class="mb-4 3xl:flex flex-col gap-2 hidden">
             <Lnk href="https://tailwindcss.com/docs">Documentation</Lnk>
             <Lnk href="https://github.com/sawanm9000/Tailwind-CSS-Cheatsheet">GitHub</Lnk>
           </div>
@@ -21,8 +21,23 @@
         </div>
       </div>
     </div>
-    
+
     <ClipTooltip :class="tooltip ? 'visible' : 'invisible'" />
+    <div v-if="popup" class="fixed hidden sm:flex 3xl:hidden top-0 left-0 w-full h-full z-50 justify-center items-center bg-black bg-opacity-50 backdrop-filter backdrop-blur-sm">
+      <div class="w-max leading-relaxed p-6 bg-coolGray-900 rounded-lg">
+        <div class="mb-5">Unfortunately, Tailwind CSS Cheatsheet is not optimized for your screen size.</div>
+        <div>Here's what you can try:</div>
+        <ul>
+          <li>Maximize this window</li>
+          <li>Zoom out</li>
+          <li>Resize this window to make it narrower</li>
+          <li>Continue anyway for a subpar experience</li>
+        </ul>
+        <div class="flex justify-center mt-7">
+          <button class="bg-blue-600 hover:bg-blue-500 text-white py-2 px-3 uppercase font-medium text-sm tracking-wider" @click="togglePopup()">Continue anyway</button>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -37,6 +52,7 @@ export default {
       tooltipTimerRunning: false,
       mouseOnClass: false,
       drawer: false,
+      popup: true
     }
   },
 
@@ -68,6 +84,11 @@ export default {
   },
 
   methods: {
+    togglePopup() {
+
+      this.popup = !this.popup;
+    },
+
     toggleDrawer(toggle) {
       if (toggle && this.$route.fullPath !== '/') {
         this.drawer = true;
