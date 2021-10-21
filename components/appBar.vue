@@ -2,14 +2,14 @@
   <header class="w-full flex justify-center">
     <div class="flex justify-between w-full">
 
-      <div class="relative flex-grow md:flex-grow-0 flex justify-center p-4">
-        <div class="absolute top-0 left-0 h-4 flex justify-center md:hidden pt-6 px-6 pb-10 cursor-pointer hover:bg-coolGray-800" :class="hideHamburgerBtn === true ? 'hidden' : ''" @click="$nuxt.$emit('showDrawer', true)">
+      <div class="relative flex-grow md:flex-grow-0 flex justify-center pt-4 px4 pb-3">
+        <!-- <div class="absolute top-0 left-0 h-4 flex justify-center md:hidden pt-6 px-6 pb-10 cursor-pointer hover:bg-coolGray-800" :class="hideHamburgerBtn === true ? 'hidden' : ''" @click="$nuxt.$emit('showDrawer', true)">
           <div class="hamburger-icon"></div>
-        </div>
+        </div> -->
 
         <NuxtLink to="/" class="flex gap-x-2 items-center">
           <img src="icon.png" alt="Logo" style="height: 32px; width: 32px;">
-          <h1 class="text-base md:text-2xl text-center font-bold">Tailwind CSS Cheatsheet<span class="hidden md:inline"> (WIP)</span></h1>
+          <h1 class="text-lg md:text-2xl text-center font-bold">Tailwind CSS Cheatsheet<span class="hidden md:inline"> (WIP)</span></h1>
         </NuxtLink>
       </div>
 
