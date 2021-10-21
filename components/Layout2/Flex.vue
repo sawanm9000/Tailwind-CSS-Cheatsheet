@@ -4,7 +4,7 @@
     <div class="content grid gap-2">
       <div class="grid grid-cols-4 gap-3">
         <div>
-          <TwClass name="flex-row" tooltip="flex-direction: row" class="mb-1">row</TwClass>
+          <TwClass name="flex-row" tooltip="flex-direction: row" class="mb-1 w-max">row</TwClass>
           <div class="h-16 flex flex-row gap-1 bg-coolGray-700 p-0.5">
             <div class="bg-lightBlue-400 rounded w-5 h-5 flex items-center justify-center">1</div>
             <div class="bg-lightBlue-500 rounded w-5 h-5 flex items-center justify-center">2</div>
@@ -12,7 +12,7 @@
           </div>
         </div>
         <div>
-          <TwClass name="flex-col" tooltip="flex-direction: column" class="mb-1">col</TwClass>
+          <TwClass name="flex-col" tooltip="flex-direction: column" class="mb-1 w-max">col</TwClass>
           <div class="h-16 flex flex-col gap-1 bg-coolGray-700 p-0.5">
             <div class="bg-lightBlue-400 rounded h-5 w-5 flex items-center justify-center">1</div>
             <div class="bg-lightBlue-500 rounded h-5 w-5 flex items-center justify-center">2</div>
@@ -20,7 +20,7 @@
           </div>
         </div>
         <div>
-          <TwClass name="flex-wrap" tooltip="flex-wrap: wrap" class="mb-1">wrap</TwClass>
+          <TwClass name="flex-wrap" tooltip="flex-wrap: wrap" class="mb-1 w-max">wrap</TwClass>
           <div class="h-16 flex flex-wrap gap-1 bg-coolGray-700 p-0.5">
             <div class="bg-lightBlue-400 rounded h-5 w-5 flex items-center justify-center">1</div>
             <div class="bg-lightBlue-500 rounded h-5 w-5 flex items-center justify-center">2</div>
@@ -29,7 +29,7 @@
           </div>
         </div>
         <div>
-          <TwClass name="flex-nowrap" tooltip="flex-wrap: nowrap" class="mb-1">nowrap</TwClass>
+          <TwClass name="flex-nowrap" tooltip="flex-wrap: nowrap" class="mb-1 w-max">nowrap</TwClass>
           <div class="h-16 flex flex-nowrap gap-1 bg-coolGray-700 p-0.5">
             <div class="bg-lightBlue-400 rounded h-5 w-5 flex items-center justify-center">1</div>
             <div class="bg-lightBlue-500 rounded h-5 w-5 flex items-center justify-center">2</div>
@@ -40,7 +40,7 @@
       </div>
       <div class="grid grid-cols-3 gap-2">
         <div>
-          <TwClass name="flex-row-reverse" tooltip="flex-direction: row-reverse" class="mb-1">row-reverse</TwClass>
+          <TwClass name="flex-row-reverse" tooltip="flex-direction: row-reverse" class="mb-1 w-max">row-reverse</TwClass>
           <div class="h-16 flex flex-row-reverse gap-1 bg-coolGray-700 p-0.5">
             <div class="bg-lightBlue-400 rounded w-5 h-5 flex items-center justify-center">1</div>
             <div class="bg-lightBlue-500 rounded w-5 h-5 flex items-center justify-center">2</div>
@@ -48,7 +48,7 @@
           </div>
         </div>
         <div>
-          <TwClass name="flex-col-reverse" tooltip="flex-direction: col-reverse" class="mb-1">col-reverse</TwClass>
+          <TwClass name="flex-col-reverse" tooltip="flex-direction: col-reverse" class="mb-1 w-max">col-reverse</TwClass>
           <div class="h-16 flex flex-col-reverse gap-1 bg-coolGray-700 p-0.5">
             <div class="bg-lightBlue-400 rounded w-5 h-5 flex items-center justify-center">1</div>
             <div class="bg-lightBlue-500 rounded w-5 h-5 flex items-center justify-center">2</div>
@@ -56,7 +56,7 @@
           </div>
         </div>
         <div>
-          <TwClass name="flex-wrap-reverse" tooltip="flex-wrap: wrap-reverse" class="mb-1">wrap-reverse</TwClass>
+          <TwClass name="flex-wrap-reverse" tooltip="flex-wrap: wrap-reverse" class="mb-1 w-max">wrap-reverse</TwClass>
           <div class="h-16 flex flex-wrap-reverse gap-1 bg-coolGray-700 p-0.5">
             <div class="bg-lightBlue-400 rounded h-5 w-5 flex items-center justify-center">1</div>
             <div class="bg-lightBlue-500 rounded h-5 w-5 flex items-center justify-center">2</div>
@@ -67,7 +67,7 @@
       </div>
       <div class="grid grid-cols-2 gap-2">
         <div class="z-50">
-          <TwClass name="flex-initial" tooltip="flex: 0 1 auto" class="mb-0.5">initial</TwClass>
+          <TwClass name="flex-initial" tooltip="flex: 0 1 auto" class="mb-0.5 w-max">initial</TwClass>
           <div class="font-sans text-coolGray-400 mb-0.5">Shrink, not grow</div>
           <div class="h-20 border border-coolGray-400 rounded bg-coolGray-800 flex flex-col resize-x shadow-md overflow-hidden">
             <div class="flex gap-0.5 p-1 mb-px">
@@ -82,7 +82,7 @@
           </div>
         </div>
         <div class="z-40">
-          <TwClass name="flex-auto" tooltip="flex: 1 1 auto" class="mb-0.5">auto</TwClass>
+          <TwClass name="flex-auto" tooltip="flex: 1 1 auto" class="mb-0.5 w-max">auto</TwClass>
           <div class="font-sans text-coolGray-400 mb-0.5">Maintain proportions</div>
           <div class="h-20 border border-coolGray-400 rounded bg-coolGray-800 flex flex-col p-1 resize-x shadow-md overflow-hidden">
             <div class="flex gap-0.5 w-24 mb-2.5">
@@ -98,7 +98,7 @@
           </div>
         </div>
         <div class="z-50">
-          <TwClass name="flex-none" tooltip="flex: none" class="mb-0.5">none</TwClass>
+          <TwClass name="flex-none" tooltip="flex: none" class="mb-0.5 w-max">none</TwClass>
           <div class="font-sans text-coolGray-400 mb-0.5">No growing or shrinking</div>
           <div class="h-20 border border-coolGray-400 rounded bg-coolGray-800 p-1 flex flex-col resize-x shadow-md overflow-hidden">
             <div class="flex gap-0.5 mb-2.5">
@@ -114,7 +114,7 @@
           </div>
         </div>
         <div class="z-40">
-          <TwClass name="flex-1" tooltip="flex: 1 1 0%" class="mb-0.5">1</TwClass>
+          <TwClass name="flex-1" tooltip="flex: 1 1 0%" class="mb-0.5 w-max">1</TwClass>
           <div class="font-sans text-coolGray-400 mb-0.5">Equal size</div>
           <div class="h-20 border border-coolGray-400 rounded bg-coolGray-800 flex flex-col p-1 resize-x shadow-md overflow-hidden">
             <div class="flex gap-0.5 mb-2.5">

@@ -1,5 +1,5 @@
 <template>
-  <div class="nav flex flex-col w-max max-w-full" :class="type === 'button' ? 'button gap-y-2' : type === 'flat' ? 'divide-y divide-white divide-opacity-20' : ''">
+  <div class="nav flex flex-col w-max max-w-full" :class="type === 'button' ? 'button gap-y-2' : type === 'flat' ? 'divide-y divide-white divide-opacity-20 border-t border-b border-opacity-20' : ''">
     <div class="nav-button cursor-pointer" :class="setActive('layout')" @click="goTo('layout')">
       <div>1. Layout</div>
       <div>Box size, positioning, margin, overflow, and over scroll</div>
@@ -80,7 +80,7 @@ export default {
 }
 
 .nav-button:hover {
-  @apply backdrop-filter backdrop-brightness-200;
+  @apply bg-blue-700 bg-opacity-30;
 
   div:first-child {
     @apply text-white;
@@ -93,11 +93,11 @@ export default {
 
 .button {
   .nav-button {
-    @apply border-2 border-opacity-20 rounded-md backdrop-filter backdrop-brightness-150;
+    @apply border-2 border-coolGray-700 border-opacity-40 rounded-md bg-coolGray-800 bg-opacity-50;
   }
 
   .nav-button:hover {
-    @apply border-opacity-30 backdrop-brightness-200;
+    @apply border-opacity-50 bg-coolGray-600 bg-opacity-30;
   }
 }
 </style>
