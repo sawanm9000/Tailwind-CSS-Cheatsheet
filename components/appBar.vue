@@ -1,6 +1,6 @@
 <template>
   <header class="w-full flex justify-center">
-    <div class="flex justify-between container">
+    <div class="flex justify-between container px-5">
 
       <div class="relative flex-grow md:flex-grow-0 flex justify-center pt-4 px4 pb-3">
         <!-- <div class="absolute top-0 left-0 h-4 flex justify-center md:hidden pt-6 px-6 pb-10 cursor-pointer hover:bg-coolGray-800" :class="hideHamburgerBtn === true ? 'hidden' : ''" @click="$nuxt.$emit('showDrawer', true)">
@@ -13,7 +13,7 @@
         </NuxtLink>
       </div>
 
-      <div class="hidden md:flex md:items-center gap-4 p-4">
+      <div class="hidden md:flex md:items-center gap-4">
         <!-- <div>Help</div> -->
         <Lnk href="https://tailwindcss.com/docs">Documentation</Lnk>
         <Lnk href="https://github.com/sawanm9000/Tailwind-CSS-Cheatsheet">GitHub</Lnk>
