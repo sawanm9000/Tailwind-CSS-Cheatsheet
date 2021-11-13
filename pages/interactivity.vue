@@ -17,7 +17,7 @@
       <InteractivityEven class="col-start-1 3xl:col-start-3 row-span-2" />
       <InteractivityOdd class="col-start-1 3xl:col-start-3 row-span-2" />
       <InteractivityChecked class="col-start-1 3xl:col-start-3 row-span-2" />
-      <InteractivityDirectives class="col-start-1 3xl:col-start-4 row-span-10" />
+      <InteractivityDirectives class="col-start-1 3xl:col-start-4 row-span-12" />
       <InteractivityFunctions class="col-start-1 3xl:col-start-4 row-span-6" />
       <InteractivityDark class="col-start-1 3xl:col-start-4 row-span-2" />
       <InteractivityPointer class="col-start-1 3xl:col-start-5 row-span-2" />
