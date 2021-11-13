@@ -26,7 +26,7 @@
     <div v-if="popup" class="fixed hidden sm:flex 3xl:hidden top-0 left-0 w-full h-full z-50 justify-center items-center bg-black bg-opacity-50 backdrop-filter backdrop-blur-sm">
       <div class="w-max leading-relaxed p-6 bg-coolGray-800 rounded-lg shadow">
         <div class="mb-5">Unfortunately, Tailwind CSS Cheatsheet is not optimized for this window size.</div>
-        <div>Here is what you can try:</div>
+        <div>Here's what you can try:</div>
         <ul class="mt-2 list-disc list-inside">
           <li>Maximize this window</li>
           <li>Zoom out</li>

@@ -53,7 +53,8 @@
           <LayoutClear          class="col-start-1 col-span-12 lg:col-span-6 3xl:col-span-2 3xl:col-start-10  3xl:row-start-13 row-span-6" />
           <LayoutFloat          class="col-start-1 col-span-12 lg:col-span-6 3xl:col-span-2 3xl:col-start-8  3xl:row-start-15 row-span-4" />
           <LayoutZIndex         class="col-start-1 col-span-6  lg:col-span-3 3xl:col-span-1 3xl:col-start-12 3xl:row-start-5  row-span-6" />
-          <LayoutIsolation      class="col-start-7 col-span-6  lg:col-span-3 3xl:col-span-1 3xl:col-start-12 3xl:row-start-11 row-span-5" />
+          <LayoutIsolation      class="col-start-7 col-span-6  lg:col-span-3 3xl:col-span-1 3xl:col-start-12 3xl:row-start-11 row-span-4" />
+          <LayoutAspect         class="col-start-7 col-span-6  lg:col-span-3 3xl:col-span-1 3xl:col-start-12 3xl:row-start-15 row-span-4" />
         </div>
       </div>
     </div>
