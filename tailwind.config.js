@@ -118,7 +118,9 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      rotate: ['first', 'last', 'even', 'odd']
+    },
   },
   plugins: [
     require('@tailwindcss/typography'),
