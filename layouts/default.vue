@@ -105,6 +105,15 @@ export default {
         this.$nuxt.$emit('toTooltip', 'Coming soon!');
       };
 
+      // Toggle drawer
+      if (e.code === "Backquote") {
+        if (this.drawer) {
+          this.toggleDrawer(false);
+        } else {
+          this.toggleDrawer(true);
+        }
+      }
+
       // Keyboard navigation
       if (e.code === 'Escape' || e.code === 'Backspace') this.goTo('/');
       if (e.code === 'Digit1' || e.code === "Numpad1") this.goTo(this.routes[0]);
