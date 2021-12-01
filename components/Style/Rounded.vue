@@ -24,7 +24,7 @@
           </div>
           <div class="flex space-x-2 items-center">
             <div class="border-t border-l border-r w-14 h-6 rounded-t-lg"></div>
-            <TwClass name="rounded-lg" tooltip="border-radius: 0.5rem" class="w-10">-xl</TwClass>
+            <TwClass name="rounded-lg" tooltip="border-radius: 0.5rem" class="w-10">-lg</TwClass>
           </div>
           <div class="flex space-x-2 items-center">
             <div class="border-t border-l border-r w-14 h-6 rounded-t-xl"></div>
