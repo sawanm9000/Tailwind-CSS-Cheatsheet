@@ -18,7 +18,7 @@
     "@tailwindcss/line-clamp": "^0.4.2",
     "@tailwindcss/typography": "^0.4.1",
     "core-js": "^3.27.2",
-    "nuxt": "^2.15.8"
+    "nuxt": "^4.5.1"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.16.3",
